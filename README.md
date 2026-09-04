@@ -44,7 +44,7 @@ Three locales — `en`, `ru`, `uk` — served by [next-intl](https://next-intl.d
 | `src/i18n/routing.ts` | Locale list, default locale, prefix strategy |
 | `src/i18n/navigation.ts` | Locale-aware `Link`, `useRouter`, `usePathname` |
 | `src/i18n/request.ts` | Per-request message loading |
-| `src/middleware.ts` | Locale negotiation and redirects |
+| `src/proxy.ts` | Locale negotiation and redirects (the `middleware.ts` convention was renamed in Next.js 16.2) |
 | `messages/{en,ru,uk}.json` | Message catalogues |
 
 Two rules keep locale routing working:
