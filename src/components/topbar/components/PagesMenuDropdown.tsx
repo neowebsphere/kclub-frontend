@@ -15,62 +15,11 @@ type MenuItem = {
 }
 
 const menuItems: MenuItem[] = [
-  {
-    label: 'About',
-    className: 'w-46',
-    children: [
-      { label: 'About v.1', href: '/pages/about-v1' },
-      { label: 'About v.2', href: '/pages/about-v2' },
-    ],
-  },
-  {
-    label: 'Blog',
-    className: 'w-46',
-    children: [
-      { label: 'Blog Layout v.1', href: '/pages/blog/layout-v1' },
-      { label: 'Blog Layout v.2', href: '/pages/blog/layout-v2' },
-      { label: 'Blog Layout v.3', href: '/pages/blog/layout-v3' },
-      { label: 'Blog Layout v.4', href: '/pages/blog/layout-v4' },
-      { label: 'Single Post v.1', href: '/pages/blog/single-v1' },
-      { label: 'Single Post v.2', href: '/pages/blog/single-v2' },
-      { label: 'Single Post v.3', href: '/pages/blog/single-v3' },
-    ],
-  },
-  {
-    label: 'Contact',
-    className: 'w-46',
-    children: [
-      { label: 'Contact v.1', href: '/pages/contact-v1' },
-      { label: 'Contact v.2', href: '/pages/contact-v2' },
-      { label: 'Contact v.3', href: '/pages/contact-v3' },
-    ],
-  },
-  {
-    label: 'Help Center',
-    className: 'w-50',
-    children: [
-      { label: 'Help Topics v.1', href: '/pages/help/topics-v1' },
-      { label: 'Help Topics v.2', href: '/pages/help/topics-v2' },
-      { label: 'Help Topics v.3', href: '/pages/help/topics-v3' },
-      { label: 'Help Single Article v.1', href: '/pages/help/single-article-v1' },
-      { label: 'Help Single Article v.2', href: '/pages/help/single-article-v2' },
-      { label: 'Help Single Article v.3', href: '/pages/help/single-article-v3' },
-    ],
-  },
-  {
-    label: '404 Error',
-    className: 'w-66',
-    children: [
-      { label: 'Background Image (Real Estate)', href: '/pages/error/bg-image' },
-      { label: 'Icon Image (Cars)', href: '/pages/error/icon' },
-      { label: 'Split Screen (Contractors)', href: '/pages/error/split-screen' },
-      { label: 'Illustration (City Guide)', href: '/pages/error/illustration' },
-    ],
-  },
-  {
-    label: 'Terms & Conditions',
-    href: '/pages/terms-and-conditions',
-  },
+  { label: 'About', href: '/about' },
+  { label: 'Blog', href: '/blog' },
+  { label: 'Contact', href: '/contact' },
+  { label: 'Help Center', href: '/help' },
+  { label: 'Terms & Conditions', href: '/terms' },
 ]
 
 const PagesMenuDropdown = () => {

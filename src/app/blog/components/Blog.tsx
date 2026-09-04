@@ -26,7 +26,7 @@ const featuredBlogsData: FeaturedBlogType[] = [
     date: 'May 13, 2024',
     title: 'Herbal medicines: advantages and disadvantages',
     category: 'Herbal medicine',
-    href: '/pages/blog/single-v3',
+    href: '/blog/article',
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ const featuredBlogsData: FeaturedBlogType[] = [
     date: 'April 25, 2024',
     title: 'Five healthcare consumerism trends to watch',
     category: 'Healthcare system',
-    href: '/pages/blog/single-v3',
+    href: '/blog/article',
   },
 ]
 

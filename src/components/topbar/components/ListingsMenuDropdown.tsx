@@ -18,86 +18,23 @@ type ListingSection = {
 const listingSections: ListingSection[][] = [
   [
     {
-      title: 'Real Estate',
-      links: [
-        { label: 'Map/Listings Split View', href: '/listings/real-estate' },
-        { label: 'Property Details Page', href: '/listings/single-entry-real-estate' },
-        { label: 'Vendor Page', href: '/listings/vendor-real-estate' },
-      ],
-    },
-    {
-      title: 'Cars',
-      className: 'pt-4',
-      links: [
-        { label: 'Listings Grid View', href: '/listings/grid-cars' },
-        { label: 'Listings List View', href: '/listings/list-cars' },
-        { label: 'Car Details Page', href: '/listings/entry-cars' },
-      ],
-    },
-    {
       title: 'Contractors',
-      className: 'pt-4',
       links: [
-        { label: 'Listings with Side Filters', href: '/listings/contractors' },
-        { label: 'Contractor Details Page', href: '/listings/entry-contractors' },
-      ],
-    },
-    {
-      title: 'Doctors',
-      className: 'pt-4',
-      links: [
-        { label: 'Listings List View', href: '/listings/list-doctors' },
-        { label: 'Listings Grid View', href: '/listings/grid-doctors' },
-        { label: 'Doctor Details Page', href: '/listings/entry-doctors' },
+        { label: 'Browse Catalog', href: '/contractors' },
+        { label: 'Contractor Profile', href: '/contractors/entry' },
       ],
     },
   ],
   [
     {
-      title: 'Events',
+      title: 'List Your Business',
       links: [
-        { label: 'Listings with Top Filters', href: '/listings/events' },
-        { label: 'Event Details Page', href: '/listings/entry-events' },
+        { label: 'Profile Details', href: '/add-listing/profile' },
+        { label: 'Choose Services', href: '/add-listing/services' },
+        { label: 'Business Location', href: '/add-listing/location' },
+        { label: 'Price and Hours', href: '/add-listing/price-hours' },
+        { label: 'First Project', href: '/add-listing/project' },
       ],
-    },
-    {
-      title: 'City Guide',
-      className: 'pt-4',
-      links: [
-        { label: 'Listings with Side Filters', href: '/listings/side-filters-city' },
-        { label: 'Listings with Top Filters', href: '/listings/top-filters-city' },
-        { label: 'Place Details Page', href: '/listings/entry-city-guide' },
-      ],
-    },
-    {
-      title: 'Add Property',
-      className: 'pt-4',
-      links: [
-        { label: 'Property Type', href: '/listings/property-type' },
-        { label: 'Location', href: '/listings/property-location' },
-        { label: 'Photos and Videos', href: '/listings/property-photos' },
-        { label: 'Property Details', href: '/listings/property-details' },
-        { label: 'Price', href: '/listings/property-price' },
-        { label: 'Contact Info', href: '/listings/property-contact' },
-        { label: 'Ad Promotion', href: '/listings/property-promotion' },
-      ],
-    },
-  ],
-  [
-    {
-      title: 'Add Contractor',
-      links: [
-        { label: 'Business Location', href: '/listings/contractor-location' },
-        { label: 'Choose Services', href: '/listings/contractor-services' },
-        { label: 'Profile Details', href: '/listings/contractor-profile' },
-        { label: 'Price and Hours', href: '/listings/contractor-price-hours' },
-        { label: 'Create First Project', href: '/listings/contractor-project' },
-      ],
-    },
-    {
-      title: 'Add (Sell) Car',
-      className: 'pt-4',
-      links: [{ label: 'Add (Sell) Car Page', href: '/listings/add-car' }],
     },
   ],
 ]
@@ -105,7 +42,7 @@ const listingSections: ListingSection[][] = [
 const ListingsMenuDropdown = () => {
   const pathname = usePathname()
 
-  const isListingsActive = pathname.startsWith('/listings')
+  const isListingsActive = pathname.startsWith('/contractors') || pathname.startsWith('/add-listing')
 
   return (
     <div className="hs-dropdown [--trigger:hover] relative inline-flex transition-all duration-300 py-2">
@@ -126,7 +63,7 @@ const ListingsMenuDropdown = () => {
           className="p-6 border border-border hs-dropdown-open:ease-in hs-dropdown-open:opacity-100 hs-dropdown-open:scale-100 transition ease-out opacity-0 scale-90 duration-200 origin-center min-w-60 bg-body-bg shadow-custom rounded-xl after:h-4 after:absolute after:-bottom-4 after:start-0 after:w-full before:h-4 before:absolute before:-top-4 before:start-0 before:w-full"
           data-hs-transition
         >
-          <div className="grid grid-cols-3 justify-between gap-6">
+          <div className="grid grid-cols-2 justify-between gap-6">
             {listingSections.map((column, columnIndex) => (
               <div key={columnIndex} className="col-span-1 w-47.5">
                 {column.map((section) => (

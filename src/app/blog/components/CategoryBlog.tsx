@@ -58,7 +58,7 @@ const blogPosts: BlogPostType[] = [
     author: 'Dr. Martha Simpson',
     image: blog01,
     authorImage: author01,
-    href: '/pages/blog/single-v3',
+    href: '/blog/article',
   },
   {
     id: 2,
@@ -69,7 +69,7 @@ const blogPosts: BlogPostType[] = [
     author: 'Dr. Bessie Cooper',
     image: blog02,
     authorImage: author03,
-    href: '/pages/blog/single-v3',
+    href: '/blog/article',
   },
   {
     id: 3,
@@ -80,7 +80,7 @@ const blogPosts: BlogPostType[] = [
     author: 'Dr. Jerome Bell',
     image: blog03,
     authorImage: author04,
-    href: '/pages/blog/single-v3',
+    href: '/blog/article',
   },
   {
     id: 4,
@@ -91,7 +91,7 @@ const blogPosts: BlogPostType[] = [
     author: 'Dr. Darlene Robertson',
     image: blog04,
     authorImage: author05,
-    href: '/pages/blog/single-v3',
+    href: '/blog/article',
   },
   {
     id: 5,
@@ -102,7 +102,7 @@ const blogPosts: BlogPostType[] = [
     author: 'Dr. Guy Hawkins',
     image: blog05,
     authorImage: author02,
-    href: '/pages/blog/single-v3',
+    href: '/blog/article',
   },
   {
     id: 6,
@@ -113,7 +113,7 @@ const blogPosts: BlogPostType[] = [
     author: 'Dr. Jacob Jones',
     image: blog06,
     authorImage: author06,
-    href: '/pages/blog/single-v3',
+    href: '/blog/article',
   },
   {
     id: 7,
@@ -124,7 +124,7 @@ const blogPosts: BlogPostType[] = [
     author: 'Dr. Brooklyn Simmons',
     image: blog07,
     authorImage: author07,
-    href: '/pages/blog/single-v3',
+    href: '/blog/article',
   },
   {
     id: 8,
@@ -135,7 +135,7 @@ const blogPosts: BlogPostType[] = [
     author: 'Dr. Arlene McCoy',
     image: blog08,
     authorImage: author08,
-    href: '/pages/blog/single-v3',
+    href: '/blog/article',
   },
 ]
 

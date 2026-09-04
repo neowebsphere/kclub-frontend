@@ -22,21 +22,21 @@ const articleData: Article[] = [
     category: 'Accommodation',
     title: 'Renting out a condo',
     description: 'Maximize your investment by renting out your condo - unlock a steady income stream and build wealth over time...',
-    href: '/pages/help/single-article-v1',
+    href: '/help/article',
   },
   {
     image: help02,
     category: 'Insurances',
     title: "What is renters' insurance?",
     description: "Renters' insurance is a type of insurance policy that provides coverage for tenants renting a home or apartment...",
-    href: '/pages/help/single-article-v1',
+    href: '/help/article',
   },
   {
     image: help03,
     category: 'Booking',
     title: 'Tips and tricks for renters',
     description: 'Unlock your best renting experience with our essential tips and tricks, designed to help you save money and find the...',
-    href: '/pages/help/single-article-v1',
+    href: '/help/article',
   },
 ]
 

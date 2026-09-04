@@ -14,87 +14,25 @@ type MenuSection = {
   links: MenuLink[]
 }
 
-const homeLinks: MenuLink[] = [
-  { label: 'Real Estate', href: '/home/real-estate', description: 'Property listings directory' },
-  { label: 'Cars', href: '/home/cars', description: 'Vehicle sales listings' },
-  { label: 'Contractors', href: '/home/contractors', description: 'Professional services directory' },
-  { label: 'Doctors', href: '/home/doctors', description: 'Medical professionals listings' },
-  { label: 'Events', href: '/home/events', description: 'Upcoming events listings' },
-  { label: 'City Guide', href: '/home/city-guide', description: 'Local places directory' },
-]
+const homeLinks: MenuLink[] = [{ label: 'Home', href: '/', description: 'Contractor directory' }]
 
 const listingSections: MenuSection[] = [
   {
-    title: 'Real Estate',
-    links: [
-      { label: 'Map/Listings Split View', href: '/listings/real-estate' },
-      { label: 'Property Details Page', href: '/listings/single-entry-real-estate' },
-      { label: 'Vendor Page', href: '/listings/vendor-real-estate' },
-    ],
-  },
-  {
-    title: 'Cars',
-    links: [
-      { label: 'Listings Grid View', href: '/listings/grid-cars' },
-      { label: 'Listings List View', href: '/listings/list-cars' },
-      { label: 'Car Details Page', href: '/listings/entry-cars' },
-    ],
-  },
-  {
     title: 'Contractors',
     links: [
-      { label: 'Listings with Side Filters', href: '/listings/contractors' },
-      { label: 'Contractor Details Page', href: '/listings/entry-contractors' },
+      { label: 'Browse Catalog', href: '/contractors' },
+      { label: 'Contractor Profile', href: '/contractors/entry' },
     ],
   },
   {
-    title: 'Doctors',
+    title: 'List Your Business',
     links: [
-      { label: 'Listings List View', href: '/listings/list-doctors' },
-      { label: 'Listings Grid View', href: '/listings/grid-doctors' },
-      { label: 'Doctor Details Page', href: '/listings/entry-doctors' },
+      { label: 'Profile Details', href: '/add-listing/profile' },
+      { label: 'Choose Services', href: '/add-listing/services' },
+      { label: 'Business Location', href: '/add-listing/location' },
+      { label: 'Price and Hours', href: '/add-listing/price-hours' },
+      { label: 'First Project', href: '/add-listing/project' },
     ],
-  },
-  {
-    title: 'Events',
-    links: [
-      { label: 'Listings with Top Filters', href: '/listings/events' },
-      { label: 'Event Details Page', href: '/listings/entry-events' },
-    ],
-  },
-  {
-    title: 'City Guide',
-    links: [
-      { label: 'Listings with Side Filters', href: '/listings/side-filters-city' },
-      { label: 'Listings with Top Filters', href: '/listings/top-filters-city' },
-      { label: 'Place Details Page', href: '/listings/entry-city-guide' },
-    ],
-  },
-  {
-    title: 'Add Property',
-    links: [
-      { label: 'Property Type', href: '/listings/property-type' },
-      { label: 'Location', href: '/listings/property-location' },
-      { label: 'Photos and Videos', href: '/listings/property-photos' },
-      { label: 'Property Details', href: '/listings/property-details' },
-      { label: 'Price', href: '/listings/property-price' },
-      { label: 'Contact Info', href: '/listings/property-contact-info' },
-      { label: 'Ad Promotion', href: '/listings/property-promotion' },
-    ],
-  },
-  {
-    title: 'Add Contractor',
-    links: [
-      { label: 'Business Location', href: '/listings/contractor-location' },
-      { label: 'Choose Services', href: '/listings/contractor-services' },
-      { label: 'Profile Details', href: '/listings/contractor-profile' },
-      { label: 'Price and Hours', href: '/listings/contractor-price-hours' },
-      { label: 'Create First Project', href: '/listings/contractor-project' },
-    ],
-  },
-  {
-    title: 'Add (Sell) Car',
-    links: [{ label: 'Add (Sell) Car Page', href: '/listings/add-car' }],
   },
 ]
 
@@ -115,50 +53,13 @@ const authLinks: MenuLink[] = [
 
 const pageSections: MenuSection[] = [
   {
-    title: 'About',
+    title: 'Pages',
     links: [
-      { label: 'About v.1', href: '/pages/about-v1' },
-      { label: 'About v.2', href: '/pages/about-v2' },
-    ],
-  },
-  {
-    title: 'Blog',
-    links: [
-      { label: 'Blog Layout v.1', href: '/pages/blog/layout-v1' },
-      { label: 'Blog Layout v.2', href: '/pages/blog/layout-v2' },
-      { label: 'Blog Layout v.3', href: '/pages/blog/layout-v3' },
-      { label: 'Blog Layout v.4', href: '/pages/blog/layout-v4' },
-      { label: 'Single Post v.1', href: '/pages/blog/single-v1' },
-      { label: 'Single Post v.2', href: '/pages/blog/single-v2' },
-      { label: 'Single Post v.3', href: '/pages/blog/single-v3' },
-    ],
-  },
-  {
-    title: 'Contact',
-    links: [
-      { label: 'Contact v.1', href: '/pages/contact-v1' },
-      { label: 'Contact v.2', href: '/pages/contact-v2' },
-      { label: 'Contact v.3', href: '/pages/contact-v3' },
-    ],
-  },
-  {
-    title: 'Help Center',
-    links: [
-      { label: 'Help Topics v.1', href: '/pages/help/topics-v1' },
-      { label: 'Help Topics v.2', href: '/pages/help/topics-v2' },
-      { label: 'Help Topics v.3', href: '/pages/help/topics-v3' },
-      { label: 'Help Single Article v.1', href: '/pages/help/single-article-v1' },
-      { label: 'Help Single Article v.2', href: '/pages/help/single-article-v2' },
-      { label: 'Help Single Article v.3', href: '/pages/help/single-article-v3' },
-    ],
-  },
-  {
-    title: '404 Error',
-    links: [
-      { label: 'Background Image (Real Estate)', href: '/pages/error/bg-image' },
-      { label: 'Icon Image (Cars)', href: '/pages/error/icon' },
-      { label: 'Split Screen (Contractors)', href: '/pages/error/split-screen' },
-      { label: 'Illustration (City Guide)', href: '/pages/error/illustration' },
+      { label: 'About', href: '/about' },
+      { label: 'Blog', href: '/blog' },
+      { label: 'Contact', href: '/contact' },
+      { label: 'Help Center', href: '/help' },
+      { label: 'Terms & Conditions', href: '/terms' },
     ],
   },
 ]
