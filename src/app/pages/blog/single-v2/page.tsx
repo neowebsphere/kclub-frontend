@@ -1,0 +1,34 @@
+import Topbar from '@/components/topbar'
+import Icon from '@/components/wrappers/Icon'
+import { Plus } from 'lucide-react'
+import { Metadata } from 'next'
+import Detail from './components/Detail'
+import Footer from './components/Footer'
+
+export const metadata: Metadata = { title: 'Blog Single V2' }
+
+const Page = () => {
+  return (
+    <>
+      <Topbar className="bg-white shadow-sm dark:bg-[#121519]" showSignIn ButtonClassName="rounded-md" ButtonText="Sell car" ButtonIcon={<Plus className="size-4 me-2" />} />
+      <Detail />
+      <Footer />
+
+      <div className="lg:hidden text-center fixed lg:z-0 z-20 bottom-0 inset-x-0">
+        <button
+          type="button"
+          className="pt-3.5 px-4.5 pb-4.5 w-full inline-flex justify-center items-center text-start bg-default-900 text-body-bg font-medium align-middle hover:bg-default-950 focus:outline-hidden"
+          aria-haspopup="dialog"
+          aria-expanded="false"
+          aria-controls="blogSidebar"
+          aria-label="Toggle navigation"
+          data-hs-overlay="#blogSidebar"
+        >
+          <Icon icon="columns-2" className="me-2 text-body-bg" /> Sidebar
+        </button>
+      </div>
+    </>
+  )
+}
+
+export default Page
