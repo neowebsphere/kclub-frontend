@@ -1,5 +1,5 @@
-import real01 from '@/assets/img/listings/real-estate/01.jpg'
-import real02 from '@/assets/img/listings/real-estate/02.jpg'
+import con01 from '@/assets/img/listings/contractors/01.jpg'
+import con02 from '@/assets/img/listings/contractors/02.jpg'
 import { Icon } from '@iconify/react'
 import { Archive, SquarePen, Trash2, Zap } from 'lucide-react'
 import Image, { StaticImageData } from 'next/image'
@@ -14,10 +14,10 @@ type ListingStats = {
 type Listing = {
   id: number
   image: StaticImageData
-  type: 'For rent' | 'For sale'
+  category: string
   price: string
-  address: string
-  area: string
+  location: string
+  completed: string
   createdAt?: string
   stats?: ListingStats
 }
@@ -25,11 +25,11 @@ type Listing = {
 const myListings: Listing[] = [
   {
     id: 1,
-    image: real01,
-    type: 'For rent',
-    price: '$2,500',
-    address: '40 S 9th St, Brooklyn, NY 11249',
-    area: '97 sq.m',
+    image: con01,
+    category: 'Renovation',
+    price: '$65/hr',
+    location: '40 S 9th St, Brooklyn, NY 11249',
+    completed: '48 projects',
     createdAt: '05/10/2024',
     stats: {
       views: 1246,
@@ -39,11 +39,11 @@ const myListings: Listing[] = [
   },
   {
     id: 2,
-    image: real02,
-    type: 'For rent',
-    price: '$1,350',
-    address: '444 Park Ave, Brooklyn, NY 11205',
-    area: '45 sq.m',
+    image: con02,
+    category: 'Electrical',
+    price: '$70/hr',
+    location: '444 Park Ave, Brooklyn, NY 11205',
+    completed: '19 projects',
     createdAt: '12/06/2024',
     stats: {
       views: 678,
@@ -71,22 +71,22 @@ const MyListing = () => {
             <div key={listing.id} className="group cursor-pointer rounded-md border border-border md:grid md:grid-cols-4">
               <div className="col-span-1">
                 <div className="size-full min-h-43.5 rounded-tl-md rounded-tr-md md:rounded-bl-md md:rounded-tr-none md:pe-2">
-                  <Image src={listing.image} className="size-full rounded-tl-md rounded-tr-md object-cover md:rounded-bl-md md:rounded-tr-none" alt={listing.address} />
+                  <Image src={listing.image} className="size-full rounded-tl-md rounded-tr-md object-cover md:rounded-bl-md md:rounded-tr-none" alt={listing.location} />
                 </div>
               </div>
 
               <div className="col-span-3 p-4 md:px-6 md:py-6 md:ps-4">
                 <div className="flex w-full justify-between">
                   <div>
-                    <div className="mb-2 inline-flex items-center rounded bg-default-100 px-2 py-0.5 text-xs font-medium text-default-900 dark:bg-white/5 dark:text-white">{listing.type}</div>
+                    <div className="mb-2 inline-flex items-center rounded bg-default-100 px-2 py-0.5 text-xs font-medium text-default-900 dark:bg-white/5 dark:text-white">{listing.category}</div>
 
                     <div className="mb-2 text-xl font-semibold text-default-900 dark:text-white">{listing.price}</div>
 
                     <Link className="mb-2 block text-sm text-body-color" href="#!">
-                      {listing.address}
+                      {listing.location}
                     </Link>
 
-                    <div className="text-sm font-semibold text-default-900 dark:text-white">{listing.area}</div>
+                    <div className="text-sm font-semibold text-default-900 dark:text-white">{listing.completed}</div>
                   </div>
 
                   <div>

@@ -1,8 +1,8 @@
-import real01 from '@/assets/img/listings/real-estate/01.jpg'
-import real02 from '@/assets/img/listings/real-estate/02.jpg'
-import real04 from '@/assets/img/listings/real-estate/04.jpg'
-import real05 from '@/assets/img/listings/real-estate/05.jpg'
-import real06 from '@/assets/img/listings/real-estate/06.jpg'
+import con01 from '@/assets/img/listings/contractors/01.jpg'
+import con02 from '@/assets/img/listings/contractors/02.jpg'
+import con03 from '@/assets/img/listings/contractors/03.jpg'
+import con04 from '@/assets/img/listings/contractors/04.jpg'
+import con05 from '@/assets/img/listings/contractors/05.jpg'
 import { Icon } from '@iconify/react'
 import { Archive, SquarePen, Trash2, Zap } from 'lucide-react'
 import Image, { StaticImageData } from 'next/image'
@@ -11,10 +11,10 @@ import Link from 'next/link'
 type Listing = {
   id: number
   image: StaticImageData
-  type: 'For rent' | 'For sale'
+  category: string
   price: string
-  address: string
-  area: string
+  location: string
+  completed: string
   createdAt: string
   views: number
   likes: number
@@ -25,11 +25,11 @@ type Listing = {
 const listingData: Listing[] = [
   {
     id: 1,
-    image: real01,
-    type: 'For rent',
-    price: '$2,500',
-    address: '40 S 9th St, Brooklyn, NY 11249',
-    area: '97 sq.m',
+    image: con01,
+    category: 'Renovation',
+    price: '$65/hr',
+    location: '40 S 9th St, Brooklyn, NY 11249',
+    completed: '48 projects',
     createdAt: '05/10/2024',
     views: 1246,
     likes: 23,
@@ -38,11 +38,11 @@ const listingData: Listing[] = [
   },
   {
     id: 2,
-    image: real06,
-    type: 'For sale',
-    price: '$1,350',
-    address: '929 Hart St, Brooklyn, NY 11237',
-    area: '108 sq.m',
+    image: con05,
+    category: 'Plumbing',
+    price: '$50/hr',
+    location: '929 Hart St, Brooklyn, NY 11237',
+    completed: '31 projects',
     createdAt: '19/05/2024',
     views: 392,
     likes: 7,
@@ -51,11 +51,11 @@ const listingData: Listing[] = [
   },
   {
     id: 3,
-    image: real02,
-    type: 'For rent',
-    price: '$1,350',
-    address: '444 Park Ave, Brooklyn, NY 11205',
-    area: '45 sq.m',
+    image: con02,
+    category: 'Electrical',
+    price: '$70/hr',
+    location: '444 Park Ave, Brooklyn, NY 11205',
+    completed: '19 projects',
     createdAt: '12/06/2024',
     views: 678,
     likes: 5,
@@ -64,11 +64,11 @@ const listingData: Listing[] = [
   },
   {
     id: 4,
-    image: real05,
-    type: 'For rent',
-    price: '$-.---',
-    address: '517 82nd St, Brooklyn, NY 11209',
-    area: '00 sq.m',
+    image: con04,
+    category: 'Roofing',
+    price: '$-.--',
+    location: '517 82nd St, Brooklyn, NY 11209',
+    completed: '0 projects',
     createdAt: '13/12/2024',
     views: 0,
     likes: 0,
@@ -77,11 +77,11 @@ const listingData: Listing[] = [
   },
   {
     id: 5,
-    image: real04,
-    type: 'For rent',
-    price: '$1,430',
-    address: '67-04 Myrtle Ave Glendale, NY 11385',
-    area: '62 sq.m',
+    image: con03,
+    category: 'Painting',
+    price: '$40/hr',
+    location: '67-04 Myrtle Ave Glendale, NY 11385',
+    completed: '12 projects',
     createdAt: '09/11/2024',
     views: 0,
     likes: 0,
@@ -182,12 +182,12 @@ const AccountListings = () => {
                   <div className="col-span-3">
                     <div className="md:py-6 md:ps-4 md:pe-6 p-4 flex justify-between items-center w-full">
                       <div>
-                        <div className="bg-default-100 mb-2 dark:bg-white/3 text-default-900 text-xs inline-flex item-center font-medium px-2 py-0.5 rounded items-center">{item.type}</div>
+                        <div className="bg-default-100 mb-2 dark:bg-white/3 text-default-900 text-xs inline-flex item-center font-medium px-2 py-0.5 rounded items-center">{item.category}</div>
                         <div className="text-xl font-semibold text-default-900 mb-2">{item.price}</div>
                         <Link className="text-sm block mb-2" href="">
-                          {item.address}
+                          {item.location}
                         </Link>
-                        <div className="text-default-900 text-sm font-semibold">{item.area}</div>
+                        <div className="text-default-900 text-sm font-semibold">{item.completed}</div>
                       </div>
                       <div>
                         <div className="text-xs mb-4 text-end">Created: {item.createdAt}</div>
@@ -297,12 +297,12 @@ const AccountListings = () => {
                   <div className="col-span-3">
                     <div className="md:py-6 md:ps-4 md:pe-6 p-4 flex justify-between items-center w-full">
                       <div>
-                        <div className="bg-default-100 mb-2 dark:bg-white/3 text-default-900 text-xs inline-flex item-center font-medium px-2 py-0.5 rounded items-center">{item.type}</div>
+                        <div className="bg-default-100 mb-2 dark:bg-white/3 text-default-900 text-xs inline-flex item-center font-medium px-2 py-0.5 rounded items-center">{item.category}</div>
                         <div className="text-xl font-semibold text-default-900 mb-2">{item.price}</div>
                         <Link className="text-sm block mb-2" href="">
-                          {item.address}
+                          {item.location}
                         </Link>
-                        <div className="text-default-900 text-sm font-semibold">{item.area}</div>
+                        <div className="text-default-900 text-sm font-semibold">{item.completed}</div>
                       </div>
                       <div>
                         <div className="text-xs mb-4 text-end">Created: {item.createdAt}</div>
