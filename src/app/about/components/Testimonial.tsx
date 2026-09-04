@@ -15,7 +15,7 @@ const Testimonial = () => {
         <div className="container">
           <div className="lg:py-12 md:py-6 mb-4">
             <div className="flex justify-between items-center lg:mb-12 md:mb-10 mb-7">
-              <h2 className="text-white font-semibold lg:text-4.5xl md:text-3.5xl text-2.5xl">Users about Finder</h2>
+              <h2 className="text-white font-semibold lg:text-4.5xl md:text-3.5xl text-2.5xl">Users about kclub</h2>
               <div className="flex gap-2">
                 <button type="button" className="size-12 flex items-center border border-white rounded-full justify-center me-1" id="prevTestimonial" aria-label="Prev">
                   <Icon icon="lucide:chevron-left" className="text-white size-4.5" />
@@ -55,7 +55,7 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <p className="text-lg text-default-900 pt-6">
-                      I had a <span className="font-semibold">fantastic experience using Finder for my office remodel.</span> The platform is very user-friendly, with an intuitive interface that makes searching and comparing contractors a breeze. I particularly appreciated the
+                      I had a <span className="font-semibold">fantastic experience using kclub for my office remodel.</span> The platform is very user-friendly, with an intuitive interface that makes searching and comparing contractors a breeze. I particularly appreciated the
                       seamless project management tools.
                     </p>
                   </div>
@@ -81,8 +81,8 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <p className="text-lg text-default-900 pt-6">
-                      Finder has become my go-to platform for all my contracting needs. As a property manager, I often need reliable contractors for various maintenance and renovation projects.
-                      <span className="font-semibold">Finder Contractor provides a comprehensive list of professionals.</span>
+                      kclub has become my go-to platform for all my contracting needs. As a property manager, I often need reliable contractors for various maintenance and renovation projects.
+                      <span className="font-semibold">kclub Contractor provides a comprehensive list of professionals.</span>
                     </p>
                   </div>
                   <div className="pb-6 px-6">

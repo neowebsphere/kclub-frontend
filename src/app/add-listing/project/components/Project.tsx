@@ -15,7 +15,7 @@ const Project = () => {
           <div className="grid lg:grid-cols-12 grid-cols-1 gap-6 lg:pb-12 md:pb-6 pb-2 lg:pt-4 md:pt-2">
             <div className="lg:col-span-7 col-span-1">
               <h1 className="mb-4 md:pb-2 lg:text-2.5xl md:text-2xl text-xl font-semibold text-default-900">Create your first project</h1>
-              <p className="mb-4 pb-4">A project is a compilation of photos showcasing your work. These photos help homeowners discover and hire your business on Finder.</p>
+              <p className="mb-4 pb-4">A project is a compilation of photos showcasing your work. These photos help homeowners discover and hire your business on kclub.</p>
               <label className="block text-sm text-default-900 font-semibold mb-2">Project name *</label>
               <div className="mb-6">
                 <input type="text" required className="w-full rounded-lg border border-default-300 dark:border-white/20 bg-transparent ps-10 pe-4.5 py-2.75" />

@@ -51,7 +51,7 @@ const featureData: FeatureItem[] = [
   {
     id: 2,
     title: 'Advanced search',
-    description: 'Finder Contractor offers sophisticated search tools that allow you to filter contractors based on criteria such as location, project type, budget, and specific skills.',
+    description: 'kclub Contractor offers sophisticated search tools that allow you to filter contractors based on criteria such as location, project type, budget, and specific skills.',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width={64} height={64}>
         <path

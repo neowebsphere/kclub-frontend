@@ -76,7 +76,7 @@ const MobileMenu = () => {
       <div className="flex h-full flex-col">
         <div className="py-4 px-6 flex items-center justify-between">
           <h3 id="topbarlabel" className="text-xl font-medium text-default-900">
-            Browser Finder
+            Browser kclub
           </h3>
 
           <X className="size-4.5" aria-label="Close" data-hs-overlay="#topbar" />

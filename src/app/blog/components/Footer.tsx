@@ -135,7 +135,7 @@ const Footer = () => {
             <p className="order-2 text-center text-sm text-white/60 md:order-1">
               © All rights reserved. Made by
               <Link href="/" className="font-semibold text-white hover:underline">
-                Coderthemes
+                kclub
               </Link>
             </p>
 

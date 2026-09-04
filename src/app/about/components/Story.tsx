@@ -36,7 +36,7 @@ const Story = () => {
     <section className="lg:py-12 md:pt-6 pt-4 pb-12 lg:my-4">
       <div className="container">
         <h2 className="lg:mb-12 md:mb-10 mb-7 text-default-900 font-semibold lg:text-4.5xl md:text-3.5xl text-2.5xl">
-          Finder story
+          kclub story
         </h2>
 
         <div className="overflow-auto pb-4">

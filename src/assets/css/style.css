@@ -15,13 +15,10 @@ File: Style CSS File
 @import "tailwindcss";
 
 @import "swiper/swiper-bundle.css";
-@import "leaflet/dist/leaflet.css";
 @import "flatpickr/dist/flatpickr.min.css";
 
 @import "glightbox/dist/css/glightbox.min.css";
 
-@import 'nouislider/distribute/nouislider.css';
-@import "./_noui-rangeslider.css";
 
 /* Preline UI */
 @source "preline/dist/*.js";
@@ -326,12 +323,6 @@ textarea {
         width: 72px;
         height: 72px;
         padding: 6px;
-    }
-}
-
-.leaflet-map {
-    &.leaflet-container {
-        z-index: 0;
     }
 }
 

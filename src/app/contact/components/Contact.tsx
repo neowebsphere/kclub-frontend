@@ -46,7 +46,7 @@ const Contact = () => {
                   Help center
                 </Link>
               </h3>
-              <p>Check out Finder helpful blog articles for answers and tips.</p>
+              <p>Check out kclub helpful blog articles for answers and tips.</p>
             </div>
             <div className="group">
               <svg className="mb-6" xmlns="http://www.w3.org/2000/svg" width={64} viewBox="0 0 64 64">

@@ -103,9 +103,9 @@ const ratings: RatingType[] = [
 
 const resources: ResourceType[] = [
   { id: 1, title: 'How can I leave a review for a contractor?', href: '/' },
-  { id: 2, title: 'What support does Finder Contractor offer?', href: '/' },
+  { id: 2, title: 'What support does kclub Contractor offer?', href: '/' },
   { id: 3, title: 'Community: Connect with other contractors', href: '/' },
-  { id: 4, title: 'Press and announcements about Finder', href: '/' },
+  { id: 4, title: 'Press and announcements about kclub', href: '/' },
 ]
 
 const Team = () => {
@@ -114,7 +114,7 @@ const Team = () => {
       <div className="container">
         <div className="grid md:grid-cols-12 grid-cols-1 gap-6">
           <div className="lg:col-span-3 md:col-span-4 col-span-1">
-            <h3 className="lg:pb-6 md:pb-4 pb-2 mb-4 uppercase text-sm font-normal text-secondary">Finder core team</h3>
+            <h3 className="lg:pb-6 md:pb-4 pb-2 mb-4 uppercase text-sm font-normal text-secondary">kclub core team</h3>
 
             <div className="flex items-center gap-5 flex-wrap">
               {teamMembers.map((member) => (

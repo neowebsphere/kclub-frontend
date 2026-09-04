@@ -13,7 +13,7 @@ const CTA = () => {
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 md:items-center items-end">
             <div className="col-span-1 md:my-12">
               <h2 className="text-default-900 md:text-start text-center lg:text-4.5xl md:text-3.5xl text-2.5xl font-semibold mb-4">Get the top-rated App!</h2>
-              <p className="mb-8">Choose the best doctor nearby, conduct an online consultation with a specialist, or order medicine in pharmacies at a better price — all this can be done quickly and easily in the Finder application. Install and be healthy!</p>
+              <p className="mb-8">Choose the best doctor nearby, conduct an online consultation with a specialist, or order medicine in pharmacies at a better price — all this can be done quickly and easily in the kclub application. Install and be healthy!</p>
               <div className="md:flex gap-3 pt-xl-3 pe-xl-3 me-xxl-5">
                 <Link className="flex md:mb-0 mb-4 justify-center items-center gap-2 py-3 px-4.5 rounded-xl transition-all duration-300 bg-default-900 hover:bg-default-700  dark:bg-default-200 hover:dark:bg-default-400" href="#!" aria-label="Download on App Store">
                   <Icon icon="tabler:brand-apple-filled" className="text-white size-6" />

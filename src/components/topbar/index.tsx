@@ -59,7 +59,7 @@ const Topbar = ({ className, showSignIn, ButtonIcon, ButtonText, showLogIn, Butt
                       />
                     </svg>
                   </span>
-                  <span className="text-2xl font-semibold text-default-900 dark:text-white">Finder</span>
+                  <span className="text-2xl font-semibold text-default-900 dark:text-white">kclub</span>
                 </Link>
               </div>
               <div className={clsx(appMenuClass ? appMenuClass : 'lg:block hidden lg:col-span-3')}>

@@ -11,7 +11,7 @@ const CTA = () => {
           <div className="bg-primary-bg-subtle rounded-xl grid md:grid-cols-12 grid-cols-1 items-center">
             <div className="md:col-span-5 col-span-1 lg:py-6 lg:ps-0 md:pe-0 p-6 ps-6 py-6">
               <div className="md:w-md w-full md:ms-auto md:text-start text-center">
-                <h3 className="text-default-900 lg:text-4.5xl md:text-3.5xl text-2.5xl mb-2 font-semibold">Get Finder App</h3>
+                <h3 className="text-default-900 lg:text-4.5xl md:text-3.5xl text-2.5xl mb-2 font-semibold">Get kclub App</h3>
                 <p className="mb-6">Explore top-rated certified pros</p>
                 <div className="flex flex-wrap shrink-0 gap-3 pt-xl-3 pe-xl-3 me-xxl-5">
                   <Link className="md:w-auto w-full justify-center flex items-center gap-2 py-3 px-4.5 rounded-xl transition-all duration-300 bg-default-900 hover:bg-default-800 dark:bg-default-200 hover:dark:bg-default-400" href="#!" aria-label="Download on App Store">

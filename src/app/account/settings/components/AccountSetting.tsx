@@ -296,7 +296,7 @@ const AccountSetting = () => {
                     <h6 className="text-default-900 font-semibold">iPhone 15 - New York, USA</h6>
                   </div>
                   <div className="pb-6 px-6 flex gap-2 items-center">
-                    <span className="text-sm text-secondary">Finder App</span>
+                    <span className="text-sm text-secondary">kclub App</span>
                     <CircleSmall className="fill-default-900 text-default-900 size-2" />
                     <span className="text-sm text-secondary">20 hours ago</span>
                   </div>
@@ -390,7 +390,7 @@ const AccountSetting = () => {
             </div>
             <div className="border-b border-border py-6 flex justify-between items-center flex-wrap gap-2">
               <div className="mb-2">
-                <h3 className="text-default-900 font-semibold mb-2">Finder recommendations</h3>
+                <h3 className="text-default-900 font-semibold mb-2">kclub recommendations</h3>
                 <p className="text-sm pb-1">Rentals we think you'll like. These recommendations may be slightly outside your search criteria</p>
               </div>
               <div className="flex gap-12 mb-2">
@@ -446,7 +446,7 @@ const AccountSetting = () => {
             </div>
             <div className="border-b border-border py-6 flex justify-between items-center flex-wrap gap-2">
               <div className="mb-2">
-                <h3 className="text-default-900 font-semibold mb-2">Finder extras</h3>
+                <h3 className="text-default-900 font-semibold mb-2">kclub extras</h3>
                 <p className="text-sm pb-1">Occasional notifications about new features to make finding the perfect rental easy</p>
               </div>
               <div className="flex gap-12 mb-2">

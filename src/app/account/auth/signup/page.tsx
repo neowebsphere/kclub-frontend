@@ -31,7 +31,7 @@ const Page = () => {
                   />
                 </svg>
               </span>
-              <span className="text-2xl font-semibold text-default-900">Finder</span>
+              <span className="text-2xl font-semibold text-default-900">kclub</span>
             </Link>
           </header>
           <div>
@@ -115,14 +115,14 @@ const Page = () => {
             <p className="text-xs">
               © All rights reserved. Made by
               <Link className="hover:underline text-default-900" href="#!" target="_blank" rel="noreferrer">
-                Coderthemes
+                kclub
               </Link>
             </p>
           </footer>
         </div>
         <div className="w-258.5 py-6 lg:block hidden">
           <div className="flex flex-col justify-end rounded-2xl bg-default-100 py-36.25 px-12 dark:bg-white/3">
-            <h2 className="mb-4 text-2xl font-semibold text-center text-default-900 pb-4">Finder account benefits</h2>
+            <h2 className="mb-4 text-2xl font-semibold text-center text-default-900 pb-4">kclub account benefits</h2>
             <div className="grid grid-cols-2 gap-6 w-197.5 mx-auto">
               <div className="border border-default-200 rounded-md p-6 bg-body-bg/30">
                 <div className="size-16 bg-body-bg flex justify-center items-center mx-auto rounded-full">
@@ -179,7 +179,7 @@ const Page = () => {
         </div>
         <div className="px-6 pt-2 pb-5">
           <div className="flex flex-col justify-end h-full bg-info-subtle rounded-2xl bg-default-100 dark:bg-white/3">
-            <h2 className="mb-4 text-2xl font-semibold text-default-900 pb-4 text-center">Finder account benefits</h2>
+            <h2 className="mb-4 text-2xl font-semibold text-default-900 pb-4 text-center">kclub account benefits</h2>
             <div className="grid grid-cols-2 gap-6 mx-auto">
               <div className="border border-default-200 rounded-md p-6 bg-body-bg/30">
                 <div className="size-16 bg-body-bg flex justify-center items-center mx-auto rounded-full">

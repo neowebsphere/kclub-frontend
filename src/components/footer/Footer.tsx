@@ -34,7 +34,7 @@ const Footer = () => {
                       />
                     </svg>
                   </span>
-                  <span className="text-2xl text-white font-semibold">Finder</span>
+                  <span className="text-2xl text-white font-semibold">kclub</span>
                 </Link>
                 <div className="flex flex-col gap-4">
                   <Link href="" className="text-white flex items-center gap-2">
@@ -218,8 +218,8 @@ const Footer = () => {
               <div className="lg:col-span-7 md:col-span-6 col-span-12 md:py-12 md:ps-12 p-6">
                 <div className="lg:flex lg:items-center">
                   <div className="lg:w-85 lg:me-12 lg:pt-0 pt-4 md:text-start text-center">
-                    <h3 className="mb-2 md:text-2.5xl text-xl text-white font-semibold">Download Finder App</h3>
-                    <p className="text-secondary lg:mb-0 mb-4">Find everything you need for buying, selling and renting property in our new Finder App!</p>
+                    <h3 className="mb-2 md:text-2.5xl text-xl text-white font-semibold">Download kclub App</h3>
+                    <p className="text-secondary lg:mb-0 mb-4">Find everything you need for buying, selling and renting property in our new kclub App!</p>
                   </div>
                   <div>
                     <div className="flex shrink-0 justify-center  gap-3 pt-xl-3 pe-xl-3 me-xxl-5">
@@ -246,7 +246,7 @@ const Footer = () => {
               </div>
               <div className="lg:col-span-5 md:col-span-6 col-span-12">
                 <div className="items-end justify-end flex">
-                  <Image src={appFooter} alt="Finder app" className="lg:-mt-8 w-116.5" />
+                  <Image src={appFooter} alt="kclub app" className="lg:-mt-8 w-116.5" />
                 </div>
               </div>
             </div>
@@ -254,7 +254,7 @@ const Footer = () => {
               <p className="text-sm text-center text-white/60">
                 © All rights reserved. Made by
                 <Link href="" className="text-white hover:underline font-semibold">
-                  Coderthemes
+                  kclub
                 </Link>
               </p>
             </div>

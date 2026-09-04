@@ -27,29 +27,29 @@ const Page = () => {
             <span className="text-secondary font-medium">Last updated:</span> August 15, 2024
           </div>
           <p className="mb-4">
-            Welcome to Finder! These terms and conditions outline the rules and regulations for the use of Finder's Website, located at <span className="font-semibold">findertheme.com</span>. By accessing this website, we assume you accept these terms and conditions. Do not
-            continue to use Finder if you do not agree to take all of the terms and conditions stated on this page.
+            Welcome to kclub! These terms and conditions outline the rules and regulations for the use of kclub's Website, located at <span className="font-semibold">findertheme.com</span>. By accessing this website, we assume you accept these terms and conditions. Do not
+            continue to use kclub if you do not agree to take all of the terms and conditions stated on this page.
           </p>
           <h2 className="lg:pt-6 pt-4 mb-4 text-default-900 font-semibold lg:text-2xl text-xl">1. Definitions</h2>
           <ul className="list-disc ps-6 mb-4 space-y-2 text-default-700">
             <li>
-              <span className="font-semibold text-default-900">"Finder"</span> refers to our real estate listings website.
+              <span className="font-semibold text-default-900">"kclub"</span> refers to our real estate listings website.
             </li>
             <li>
               <span className="font-semibold text-default-900">"User"</span> refers to anyone using our website, including sellers, buyers, renters, and agents.
             </li>
             <li>
-              <span className="font-semibold text-default-900">"Listing"</span> refers to any property listed for sale, purchase, or rent on Finder.
+              <span className="font-semibold text-default-900">"Listing"</span> refers to any property listed for sale, purchase, or rent on kclub.
             </li>
           </ul>
           <h2 className="lg:pt-6 pt-4 mb-4 text-default-900 font-semibold lg:text-2xl text-xl">2. Acceptance of Terms</h2>
           <p className="mb-4">
-            By using Finder, you agree to comply with and be legally bound by the terms and conditions set forth below, whether or not you become a registered user of the services. These terms govern your access to and use of the website and services, and constitute a binding
-            legal agreement between you and Finder.
+            By using kclub, you agree to comply with and be legally bound by the terms and conditions set forth below, whether or not you become a registered user of the services. These terms govern your access to and use of the website and services, and constitute a binding
+            legal agreement between you and kclub.
           </p>
           <h2 className="lg:pt-6 pt-4 mb-4 text-default-900 font-semibold lg:text-2xl text-xl">3. Use of the Website </h2>
           <h3 className="mb-4 text-default-900 font-semibold pt-1">a. Eligibility</h3>
-          <p className="mb-4">To use Finder, you must be at least 18 years old and capable of forming a binding contract with Finder and not be barred from using the services under applicable law.</p>
+          <p className="mb-4">To use kclub, you must be at least 18 years old and capable of forming a binding contract with kclub and not be barred from using the services under applicable law.</p>
           <h3 className="mb-4 text-default-900 font-semibold pt-1">b. User Accounts</h3>
           <ul className="list-disc ps-6 mb-4 space-y-2 text-default-700">
             <li>Users may be required to create an account to access certain features of the website.</li>
@@ -63,42 +63,42 @@ const Page = () => {
           </ul>
           <h3 className="mb-4 text-default-900 font-semibold pt-1">b. User Accounts</h3>
           <ul className="list-disc ps-6 mb-4 space-y-2 text-default-700">
-            <li>Finder is not a party to any transaction between buyers, sellers, and renters. We do not guarantee the quality, safety, or legality of the properties listed.</li>
+            <li>kclub is not a party to any transaction between buyers, sellers, and renters. We do not guarantee the quality, safety, or legality of the properties listed.</li>
           </ul>
           <h2 className="lg:pt-6 pt-4 mb-4 text-default-900 font-semibold lg:text-2xl text-xl">5. User Obligations </h2>
           <ul className="list-disc ps-6 mb-4 space-y-2 text-default-700">
             <li>Users must comply with all applicable laws and regulations.</li>
-            <li>Users must not use Finder to engage in any illegal or fraudulent activities.</li>
+            <li>Users must not use kclub to engage in any illegal or fraudulent activities.</li>
             <li>Users must not post any content that is offensive, defamatory, or infringes on any third party's rights.</li>
           </ul>
           <h2 className="lg:pt-6 pt-4 mb-4 text-default-900 font-semibold lg:text-2xl text-xl">6. Fees and Payments </h2>
           <ul className="list-disc ps-6 mb-4 space-y-2 text-default-700">
-            <li>Certain services on Finder may require payment of fees. All fees are non-refundable unless otherwise stated.</li>
+            <li>Certain services on kclub may require payment of fees. All fees are non-refundable unless otherwise stated.</li>
             <li>Payment terms are outlined at the point of transaction.</li>
           </ul>
           <h2 className="lg:pt-6 pt-4 mb-4 text-default-900 font-semibold lg:text-2xl text-xl">7. Intellectual Property </h2>
           <ul className="list-disc ps-6 mb-4 space-y-2 text-default-700">
-            <li>All content on Finder, including text, graphics, logos, and software, is the property of Finder or its content suppliers and is protected by copyright laws.</li>
-            <li>Users may not reproduce, distribute, or create derivative works from any content on Finder without our explicit permission.</li>
+            <li>All content on kclub, including text, graphics, logos, and software, is the property of kclub or its content suppliers and is protected by copyright laws.</li>
+            <li>Users may not reproduce, distribute, or create derivative works from any content on kclub without our explicit permission.</li>
           </ul>
           <h2 className="lg:pt-6 pt-4 mb-4 text-default-900 font-semibold lg:text-2xl text-xl">8. Privacy Policy </h2>
-          <p className="mb-4">Your use of Finder is also governed by our Privacy Policy, which is incorporated by reference into these terms. Please review our Privacy Policy to understand our practices.</p>
+          <p className="mb-4">Your use of kclub is also governed by our Privacy Policy, which is incorporated by reference into these terms. Please review our Privacy Policy to understand our practices.</p>
           <h2 className="lg:pt-6 pt-4 mb-4 text-default-900 font-semibold lg:text-2xl text-xl">9. Limitation of Liability </h2>
           <ul className="list-disc ps-6 mb-4 space-y-2 text-default-700">
-            <li>Finder is not liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your use of the website.</li>
-            <li>Finder does not guarantee the accuracy, completeness, or usefulness of any information on the website.</li>
+            <li>kclub is not liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your use of the website.</li>
+            <li>kclub does not guarantee the accuracy, completeness, or usefulness of any information on the website.</li>
           </ul>
           <h2 className="lg:pt-6 pt-4 mb-4 text-default-900 font-semibold lg:text-2xl text-xl">10. Indemnification </h2>
           <p className="mb-4">
-            You agree to indemnify and hold Finder and its affiliates, officers, agents, and employees harmless from any claim or demand, including reasonable attorney's fees, made by any third party due to or arising out of your use of the website, your violation of these terms,
+            You agree to indemnify and hold kclub and its affiliates, officers, agents, and employees harmless from any claim or demand, including reasonable attorney's fees, made by any third party due to or arising out of your use of the website, your violation of these terms,
             or your violation of any rights of another.
           </p>
           <h2 className="lg:pt-6 pt-4 mb-4 text-default-900 font-semibold lg:text-2xl text-xl">11. Modifications to the Service </h2>
-          <p className="mb-4">Finder reserves the right to modify or discontinue, temporarily or permanently, the service with or without notice at any time.</p>
+          <p className="mb-4">kclub reserves the right to modify or discontinue, temporarily or permanently, the service with or without notice at any time.</p>
           <h2 className="lg:pt-6 pt-4 mb-4 text-default-900 font-semibold lg:text-2xl text-xl">12. Governing Law </h2>
           <p className="mb-4">These terms and conditions are governed by and construed in accordance with the laws of [Your Country/State], and you irrevocably submit to the exclusive jurisdiction of the courts in that location. </p>
           <h2 className="lg:pt-6 pt-4 mb-4 text-default-900 font-semibold lg:text-2xl text-xl">13. Contact information </h2>
-          <p className="mb-4">If you have any questions, or comments about these Terms please contact Finder at:</p>
+          <p className="mb-4">If you have any questions, or comments about these Terms please contact kclub at:</p>
           <ul className="pb-1 space-y-2 mb-4 ">
             <li className="pt-1 text-default-800 hover:text-default-900">
               <Link href="tel:+15053753082" className="flex items-start text-base p-0">
@@ -120,7 +120,7 @@ const Page = () => {
             </li>
           </ul>
           <p className="pb-4">
-            For customer service inquiries, please review Your Account Settings, visit Finder's
+            For customer service inquiries, please review Your Account Settings, visit kclub's
             <Link className="font-medium text-info underline hover:no-underline" href="/help">
               Help Center.
             </Link>

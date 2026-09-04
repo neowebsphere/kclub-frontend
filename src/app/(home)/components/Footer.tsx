@@ -54,7 +54,7 @@ const companyLinks: FooterSection = {
   links: [
     { label: 'About', href: '' },
     { label: 'Press & announcements', href: '' },
-    { label: 'Careers at Finder', href: '' },
+    { label: 'Careers at kclub', href: '' },
     { label: 'Contact us', href: '' },
     { label: 'Terms of use', href: '' },
     { label: 'Privacy', href: '' },
@@ -127,7 +127,7 @@ const Footer = () => {
                   </svg>
                 </span>
 
-                <span className="text-2xl font-semibold text-white">Finder</span>
+                <span className="text-2xl font-semibold text-white">kclub</span>
               </Link>
               <p className="pt-1 mb-4 text-sm text-white/70">Connecting you with reliable local contractors for all your service needs.</p>
               <div className="flex gap-4">
@@ -220,7 +220,7 @@ const Footer = () => {
           <p className="text-sm text-center text-white/60 md:order-1 order-2">
             © All rights reserved. Made by
             <Link href="" className="text-white hover:underline font-semibold">
-              Coderthemes
+              kclub
             </Link>
           </p>
 

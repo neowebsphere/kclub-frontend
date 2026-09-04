@@ -7,7 +7,7 @@ const ParterLogo = () => {
         <div className="container">
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-6 gap-0 items-center lg:pb-12">
             <div className="lg:col-span-3 col-span-1 lg:mb-0 mb-4">
-              <h2 className="text-xl text-default-900 font-semibold">Big companies trust Finder</h2>
+              <h2 className="text-xl text-default-900 font-semibold">Big companies trust kclub</h2>
             </div>
             <div className="lg:col-span-9 col-span-1">
               <div className="grid md:grid-cols-5 grid-cols-2 lg:gap-12 gap-3">

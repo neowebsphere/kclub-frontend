@@ -33,7 +33,7 @@ const Page = () => {
                     />
                   </svg>
                 </span>
-                <span className="text-2xl font-semibold text-default-900">Finder</span>
+                <span className="text-2xl font-semibold text-default-900">kclub</span>
               </Link>
               <Link className="flex items-center text-base font-semibold" href="/account/auth/signin">
                 <Icon icon="lucide:chevron-left" className="text-lg me-1" />
@@ -59,7 +59,7 @@ const Page = () => {
             <p className="text-xs">
               © All rights reserved. Made by
               <Link className="hover:underline text-default-900" href="" target="_blank" rel="noreferrer">
-                Coderthemes
+                kclub
               </Link>
             </p>
           </footer>

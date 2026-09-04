@@ -37,7 +37,7 @@ type SubscribeCardType = {
 }
 
 const subscribeCard: SubscribeCardType = {
-  title: 'Stay updated with Finder',
+  title: 'Stay updated with kclub',
   image: subscribe,
 }
 
