@@ -1,11 +1,11 @@
 import { Icon } from "@iconify/react"
-import hero from '@/assets/img/home/partners/hero.png'
+import hero from '@/assets/img/home/partners/hero.jpeg'
 import Image from "next/image"
 
 const Hero = () => {
   return (
     <>
-      <section className="relative bg-info dark overflow-hidden lg:py-18 md:py-4 lg:mt-20 mt-15">
+      <section className="relative bg-dark dark overflow-hidden lg:py-18 md:py-4 lg:mt-20 mt-15">
         <div className="container relative z-10 pb-2 py-4 md:py-10">
           <div className="mx-auto py-8 lg:py-12" style={{ maxWidth: 630 }}>
             <h1 className="text-white text-center md:mb-12 mb-8 md:text-4.8xl text-3.5xl lg:text-5.5xl font-bold">Explore top-rated certified pros nearby</h1>
@@ -47,11 +47,10 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute top-1/2 start-1/2 -translate-x-1/2 -translate-y-1/2">
-          <div className="2xl:hidden" style={{ width: 1780 }} />
-          <div className="hidden 2xl:block" style={{ width: 2157 }} />
-          <Image src={hero} alt="Image" />
-        </div>
+        <Image src={hero} alt="" fill priority sizes="100vw" className="object-cover object-center" />
+
+        {/* Scrim: the photo burns out to near-white at the sunrise, and the heading above it is white */}
+        <div className="absolute inset-0 bg-black/45" />
       </section>
     </>
   )

@@ -20,13 +20,13 @@ Open http://localhost:3000 — it redirects to `/en`.
 
 ## Scripts
 
-| Command | Purpose |
-|---|---|
-| `npm run dev` | Dev server (Turbopack) |
-| `npm run build` | Production build |
-| `npm start` | Serve the production build |
-| `npm run lint` | ESLint |
-| `npm run format` | Prettier over `src/` |
+| Command          | Purpose                    |
+| ---------------- | -------------------------- |
+| `npm run dev`    | Dev server (Turbopack)     |
+| `npm run build`  | Production build           |
+| `npm start`      | Serve the production build |
+| `npm run lint`   | ESLint                     |
+| `npm run format` | Prettier over `src/`       |
 
 ## Internationalisation
 
@@ -39,13 +39,13 @@ Three locales — `en`, `ru`, `uk` — served by [next-intl](https://next-intl.d
 /uk/partners
 ```
 
-| Path | Role |
-|---|---|
-| `src/i18n/routing.ts` | Locale list, default locale, prefix strategy |
-| `src/i18n/navigation.ts` | Locale-aware `Link`, `useRouter`, `usePathname` |
-| `src/i18n/request.ts` | Per-request message loading |
-| `src/proxy.ts` | Locale negotiation and redirects (the `middleware.ts` convention was renamed in Next.js 16.2) |
-| `messages/{en,ru,uk}.json` | Message catalogues |
+| Path                       | Role                                                                                          |
+| -------------------------- | --------------------------------------------------------------------------------------------- |
+| `src/i18n/routing.ts`      | Locale list, default locale, prefix strategy                                                  |
+| `src/i18n/navigation.ts`   | Locale-aware `Link`, `useRouter`, `usePathname`                                               |
+| `src/i18n/request.ts`      | Per-request message loading                                                                   |
+| `src/proxy.ts`             | Locale negotiation and redirects (the `middleware.ts` convention was renamed in Next.js 16.2) |
+| `messages/{en,ru,uk}.json` | Message catalogues                                                                            |
 
 Two rules keep locale routing working:
 
