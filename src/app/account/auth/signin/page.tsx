@@ -92,7 +92,7 @@ const Page = () => {
             </div>
           </div>
           <footer>
-            <Link className="mb-6 block underline hover:no-underline text-sm font-medium hover:text-default-900" href="/pages/help/topics-v1">
+            <Link className="mb-6 block underline hover:no-underline text-sm font-medium hover:text-default-900" href="/help">
               Need help?
             </Link>
             <p className="text-xs">

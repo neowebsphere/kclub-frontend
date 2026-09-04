@@ -65,7 +65,7 @@ const SideBar = () => {
                   <Link href="/account/settings" className={getLinkClass('/account/settings')}>
                     <Icon icon="lucide:settings" className="size-4" /> Account settings
                   </Link>
-                  <Link href="/pages/help/topics-v1" className={getLinkClass('/pages/help/topics-v1')}>
+                  <Link href="/help" className={getLinkClass('/pages/help/topics-v1')}>
                     <Icon icon="lucide:help-circle" className="size-4" /> Help center
                   </Link>
                   <div className="pt-4 w-full">

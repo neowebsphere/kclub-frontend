@@ -310,7 +310,7 @@ const MobileMenu = () => {
                       </div>
                     ))}
 
-                    <Link href="/pages/terms-and-conditions" className="text-sm py-2 px-3">
+                    <Link href="/terms" className="text-sm py-2 px-3">
                       Terms &amp; Conditions
                     </Link>
                   </div>
