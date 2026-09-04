@@ -2,10 +2,11 @@
 import useScrollEvent from '@/hooks/useScrollEvent'
 import clsx from 'clsx'
 import { LogIn, Menu, UserRound } from 'lucide-react'
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
 import React from 'react'
 import AppMenu from './components/AppMenu'
 import MobileMenu from './components/MobileMenu'
+import LocaleSwitcher from './components/LocaleSwitcher'
 import ThemeMode from './components/ThemeMode'
 import UserDropdown from './components/UserDropdown'
 
@@ -67,6 +68,8 @@ const Topbar = ({ className, showSignIn, ButtonIcon, ButtonText, showLogIn, Butt
               </div>
               <div>
                 <div className="flex justify-end items-center gap-4">
+                  <LocaleSwitcher />
+
                   <ThemeMode />
 
                   {ShowUser && <UserDropdown />}

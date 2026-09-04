@@ -1,6 +1,6 @@
 'use client'
 import 'glightbox/dist/css/glightbox.min.css'
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
 import { useEffect, useRef, type AnchorHTMLAttributes } from 'react'
 
 const GlightBox = ({ children, href, ...other }: { href: string } & AnchorHTMLAttributes<HTMLAnchorElement>) => {

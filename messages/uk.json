@@ -1,0 +1,114 @@
+{
+  "Nav": {
+    "home": "Home",
+    "partners": "Partners",
+    "becomePartner": "Become a partner",
+    "account": "Account",
+    "pages": "Pages",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "help": "Help Center",
+    "terms": "Terms & Conditions",
+    "signIn": "Sign In",
+    "signUp": "Sign Up"
+  },
+  "Common": {
+    "search": "Search",
+    "filters": "Filters",
+    "showMore": "Show more",
+    "showLess": "Show less",
+    "readMore": "Read more",
+    "apply": "Apply",
+    "reset": "Reset",
+    "save": "Save",
+    "cancel": "Cancel",
+    "next": "Next",
+    "back": "Back",
+    "loading": "Loading"
+  },
+  "Home": {
+    "heroTitle": "Discover member benefits",
+    "heroSubtitle": "Exclusive discounts from club partners",
+    "ctaBrowse": "Browse partners",
+    "ctaJoin": "Become a partner"
+  },
+  "Partners": {
+    "title": "Partners",
+    "resultsCount": "{count, plural, =0 {No partners} one {# partner} other {# partners}}",
+    "discount": "Discount",
+    "category": "Category",
+    "viewProfile": "View profile",
+    "emptyState": "No partners match your filters"
+  },
+  "BecomePartner": {
+    "title": "Become a partner",
+    "stepProfile": "Profile details",
+    "stepServices": "Choose categories",
+    "stepLocation": "Business location",
+    "stepPriceHours": "Offer and hours",
+    "stepProject": "First offer",
+    "submit": "Submit application"
+  },
+  "Account": {
+    "profile": "My profile",
+    "listings": "My offers",
+    "reviews": "Reviews",
+    "favorites": "Favorites",
+    "payment": "Payment details",
+    "settings": "Settings",
+    "signOut": "Sign out"
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for was moved, removed or might never existed.",
+    "goHome": "Go to homepage"
+  },
+  "LocaleSwitcher": {
+    "label": "Language"
+  },
+  "Categories": {
+    "business": {
+      "label": "Business services",
+      "legal": {
+        "label": "Legal",
+        "corporate": {
+          "label": "Corporate law"
+        },
+        "contracts": {
+          "label": "Contracts"
+        }
+      },
+      "finance": {
+        "label": "Finance",
+        "accounting": {
+          "label": "Accounting"
+        },
+        "audit": {
+          "label": "Audit"
+        }
+      }
+    },
+    "lifestyle": {
+      "label": "Lifestyle",
+      "dining": {
+        "label": "Dining",
+        "restaurants": {
+          "label": "Restaurants"
+        },
+        "cafes": {
+          "label": "Cafes"
+        }
+      },
+      "wellness": {
+        "label": "Wellness",
+        "fitness": {
+          "label": "Fitness"
+        },
+        "spa": {
+          "label": "Spa"
+        }
+      }
+    }
+  }
+}

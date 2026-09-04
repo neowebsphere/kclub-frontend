@@ -1,7 +1,7 @@
 import appFooter from '@/assets/img/app-footer.png'
 import { Icon } from '@iconify/react'
 import Image from 'next/image'
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
 
 const Footer = () => {
   return (

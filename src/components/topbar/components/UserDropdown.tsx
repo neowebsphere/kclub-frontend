@@ -1,7 +1,7 @@
 import avatar from '@/assets/img/account/avatar-sm.jpg'
 import { CreditCard, Heart, Layers, LogOut, Settings, Star, UserRound } from 'lucide-react'
 import Image from 'next/image'
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
 
 const UserDropdown = () => {
   return (
