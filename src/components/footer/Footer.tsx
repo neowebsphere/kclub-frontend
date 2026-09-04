@@ -52,22 +52,22 @@ const Footer = () => {
                 <ul className="mt-2 gap-2">
                   <li className="pt-2">
                     <Link href="" className="text-sm text-body-color hover:underline hover:text-white">
-                      Daily rental
+                      Browse contractors
                     </Link>
                   </li>
                   <li className="pt-2">
                     <Link href="" className="text-sm text-body-color hover:underline hover:text-white">
-                      Long-term rental
+                      Post a project
                     </Link>
                   </li>
                   <li className="pt-2">
                     <Link href="" className="text-sm text-body-color hover:underline hover:text-white">
-                      Buy property
+                      Join as a pro
                     </Link>
                   </li>
                   <li className="pt-2">
                     <Link href="" className="text-sm text-body-color hover:underline hover:text-white">
-                      Sell property
+                      How it works
                     </Link>
                   </li>
                   <li className="pt-2">
@@ -88,22 +88,22 @@ const Footer = () => {
                     <ul className="mt-2 gap-2">
                       <li className="pt-2">
                         <Link href="" className="text-sm text-body-color hover:underline hover:text-white">
-                          Daily rental
+                          Browse contractors
                         </Link>
                       </li>
                       <li className="pt-2">
                         <Link href="" className="text-sm text-body-color hover:underline hover:text-white">
-                          Long-term rental
+                          Post a project
                         </Link>
                       </li>
                       <li className="pt-2">
                         <Link href="" className="text-sm text-body-color hover:underline hover:text-white">
-                          Buy property
+                          Join as a pro
                         </Link>
                       </li>
                       <li className="pt-2">
                         <Link href="" className="text-sm text-body-color hover:underline hover:text-white">
-                          Sell property
+                          How it works
                         </Link>
                       </li>
                       <li className="pt-2">

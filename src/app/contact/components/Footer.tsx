@@ -145,8 +145,8 @@ const Footer = () => {
 
             <div className="grid grid-cols-2">
               {[0, 1].map((column) => (
-                <div className="mt-2">
-                  <ul key={column} className="gap-2 flex flex-col">
+                <div key={column} className="mt-2">
+                  <ul className="gap-2 flex flex-col">
                     {popularCategories.links.slice(column * 6, column * 6 + 6).map((item) => (
                       <li key={item.label} className="pt-1">
                         <Link href={item.href} className="text-sm text-white/70 transition-all duration-300 hover:underline hover:text-white">
