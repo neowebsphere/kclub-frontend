@@ -55,7 +55,7 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <p className="text-lg text-default-900 pt-6">
-                      I had a <span className="font-semibold">fantastic experience using kclub for my office remodel.</span> The platform is very user-friendly, with an intuitive interface that makes searching and comparing contractors a breeze. I particularly appreciated the
+                      I had a <span className="font-semibold">fantastic experience using kclub for my office remodel.</span> The platform is very user-friendly, with an intuitive interface that makes searching and comparing partners a breeze. I particularly appreciated the
                       seamless project management tools.
                     </p>
                   </div>
@@ -81,8 +81,8 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <p className="text-lg text-default-900 pt-6">
-                      kclub has become my go-to platform for all my contracting needs. As a property manager, I often need reliable contractors for various maintenance and renovation projects.
-                      <span className="font-semibold">kclub Contractor provides a comprehensive list of professionals.</span>
+                      kclub has become my go-to platform for all my contracting needs. As a property manager, I often need reliable partners for various maintenance and renovation projects.
+                      <span className="font-semibold">kclub Partner provides a comprehensive list of professionals.</span>
                     </p>
                   </div>
                   <div className="pb-6 px-6">
@@ -132,7 +132,7 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <p className="text-lg text-default-900 pt-6">
-                      Using this site to find a local contractor <span className="font-semibold">was a game-changer for my home renovation.</span> The listings were clear and detailed, making it easy to compare services and read reviews. I found a reliable contractor quickly, and
+                      Using this site to find a local partner <span className="font-semibold">was a game-changer for my home renovation.</span> The listings were clear and detailed, making it easy to compare services and read reviews. I found a reliable partner quickly, and
                       the entire process was smooth and hassle-free.
                     </p>
                   </div>

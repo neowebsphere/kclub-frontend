@@ -1,5 +1,5 @@
-import con01 from '@/assets/img/listings/contractors/01.jpg'
-import con02 from '@/assets/img/listings/contractors/02.jpg'
+import con01 from '@/assets/img/listings/partners/01.jpg'
+import con02 from '@/assets/img/listings/partners/02.jpg'
 import { Icon } from '@iconify/react'
 import { Archive, SquarePen, Trash2, Zap } from 'lucide-react'
 import Image, { StaticImageData } from 'next/image'

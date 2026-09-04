@@ -14,24 +14,24 @@ type MenuSection = {
   links: MenuLink[]
 }
 
-const homeLinks: MenuLink[] = [{ label: 'Home', href: '/', description: 'Contractor directory' }]
+const homeLinks: MenuLink[] = [{ label: 'Home', href: '/', description: 'Partner directory' }]
 
 const listingSections: MenuSection[] = [
   {
-    title: 'Contractors',
+    title: 'Partners',
     links: [
-      { label: 'Browse Catalog', href: '/contractors' },
-      { label: 'Contractor Profile', href: '/contractors/entry' },
+      { label: 'Browse Catalog', href: '/partners' },
+      { label: 'Partner Profile', href: '/partners/entry' },
     ],
   },
   {
     title: 'List Your Business',
     links: [
-      { label: 'Profile Details', href: '/add-listing/profile' },
-      { label: 'Choose Services', href: '/add-listing/services' },
-      { label: 'Business Location', href: '/add-listing/location' },
-      { label: 'Price and Hours', href: '/add-listing/price-hours' },
-      { label: 'First Project', href: '/add-listing/project' },
+      { label: 'Profile Details', href: '/become-partner/profile' },
+      { label: 'Choose Services', href: '/become-partner/services' },
+      { label: 'Business Location', href: '/become-partner/location' },
+      { label: 'Price and Hours', href: '/become-partner/price-hours' },
+      { label: 'First Project', href: '/become-partner/project' },
     ],
   },
 ]

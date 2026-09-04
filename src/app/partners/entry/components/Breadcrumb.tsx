@@ -12,8 +12,8 @@ const Breadcrumb = () => {
           <Icon icon="lucide:chevron-right" className="mx-2" />
         </li>
         <li className="inline-flex items-center">
-          <Link className="flex items-center text-sm font-medium text-default-700 hover:text-default-900 focus:outline-hidden" href="/contractors">
-            Contractors
+          <Link className="flex items-center text-sm font-medium text-default-700 hover:text-default-900 focus:outline-hidden" href="/partners">
+            Partners
           </Link>
           <Icon icon="lucide:chevron-right" className="mx-2" />
         </li>

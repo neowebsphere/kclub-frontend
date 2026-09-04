@@ -14,27 +14,27 @@ type StepType = {
 const steps: StepType[] = [
   {
     label: 'Business location',
-    href: '/add-listing/location',
+    href: '/become-partner/location',
     icon: 'lucide:map',
   },
   {
     label: 'Choose services',
-    href: '/add-listing/services',
+    href: '/become-partner/services',
     icon: 'lucide:swatch-book',
   },
   {
     label: 'Profile details',
-    href: '/add-listing/profile',
+    href: '/become-partner/profile',
     icon: 'lucide:user-check',
   },
   {
     label: 'Price and hours',
-    href: '/add-listing/price-hours',
+    href: '/become-partner/price-hours',
     icon: 'lucide:clock',
   },
   {
     label: 'Create first project',
-    href: '/add-listing/project',
+    href: '/become-partner/project',
     icon: 'lucide:layout-grid',
   },
 ]

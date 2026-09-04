@@ -41,7 +41,7 @@ const Hero = () => {
             <div className="md:col-span-7 col-span-1 md:ps-6 ps-0">
               <div className="lg:w-159 w-full ms-auto md:text-start text-center">
                 <h1 className="lg:text-6xl md:text-5xl text-4xl font-bold mb-4 lg:pb-6 pb-2 text-default-900">We are new and growing fast</h1>
-                <p className="text-lg mb-4 lg:pb-6 pb-2">Welcome to kclub, your go-to platform for discovering reliable and skilled contractors for all your project needs. Whether you're planning a home renovation, commercial construction, or any specialized work.</p>
+                <p className="text-lg mb-4 lg:pb-6 pb-2">Welcome to kclub, your go-to platform for discovering reliable and skilled partners for all your project needs. Whether you're planning a home renovation, commercial construction, or any specialized work.</p>
                 <div className="flex items-center md:justify-start justify-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width={28} height={28} fill="none">
                     <path d="M25.176 14.273c0-.79-.064-1.585-.201-2.362h-10.97v4.479h6.281c-.129.715-.401 1.397-.8 2.005a5.38 5.38 0 0 1-1.524 1.529v2.905h3.747c2.202-2.024 3.465-5.017 3.465-8.555h.001z" fill="#2a84fc" />

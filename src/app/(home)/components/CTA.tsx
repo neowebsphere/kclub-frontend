@@ -1,4 +1,4 @@
-import cta from '@/assets/img/home/contractors/app-cta.png'
+import cta from '@/assets/img/home/partners/app-cta.png'
 import { Icon } from '@iconify/react'
 import Image from 'next/image'
 import Link from 'next/link'

@@ -20,7 +20,7 @@ const leftPrinciples: PrincipleItem[] = [
   {
     id: 1,
     title: 'Commitment to quality',
-    description: 'We feature only the top contractors who excel in craftsmanship and professionalism, ensuring every project meets the highest standards of quality.',
+    description: 'We feature only the top partners who excel in craftsmanship and professionalism, ensuring every project meets the highest standards of quality.',
     image: about01,
     mobileAspect: 'aspect-[300/200]',
     tabletAspect: 'aspect-[350/336]',
@@ -29,7 +29,7 @@ const leftPrinciples: PrincipleItem[] = [
   {
     id: 2,
     title: 'Dependability and trust',
-    description: 'We connect you with reliable contractors who are punctual, responsive, and consistent, guaranteeing your project remains on schedule and within scope.',
+    description: 'We connect you with reliable partners who are punctual, responsive, and consistent, guaranteeing your project remains on schedule and within scope.',
     image: about02,
     mobileAspect: 'aspect-[300/200]',
     tabletAspect: 'aspect-[350/336]',
@@ -41,7 +41,7 @@ const rightPrinciples: PrincipleItem[] = [
   {
     id: 3,
     title: 'Full transparency',
-    description: 'We emphasize clarity and openness, offering detailed contractor profiles with credentials, past projects.',
+    description: 'We emphasize clarity and openness, offering detailed partner profiles with credentials, past projects.',
     image: about03,
     mobileAspect: 'aspect-[300/200]',
     tabletAspect: 'aspect-[350/226]',
@@ -59,7 +59,7 @@ const rightPrinciples: PrincipleItem[] = [
   {
     id: 5,
     title: 'Integrity in every interaction',
-    description: 'We maintain the highest ethical standards, ensuring our contractors follow fair practices and professional conduct throughout their engagements.',
+    description: 'We maintain the highest ethical standards, ensuring our partners follow fair practices and professional conduct throughout their engagements.',
     image: about05,
     mobileAspect: 'aspect-[300/200]',
     tabletAspect: 'aspect-[350/226]',

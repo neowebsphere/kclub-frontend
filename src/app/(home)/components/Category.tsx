@@ -136,14 +136,14 @@ const Category = () => {
           <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 md:gap-6 gap-3">
             {categoryItems.map((item, idx) => (
               <div className="group" key={idx}>
-                <Link href="/contractors" className="group"></Link>
+                <Link href="/partners" className="group"></Link>
                 <div className="flex gap-4 items-center">
-                  <Link href="/contractors" className="group">
+                  <Link href="/partners" className="group">
                     <div className="size-14 bg-default-100 dark:bg-white/3 rounded-full flex items-center justify-center group-hover:scale-105 transition-all duration-300 ease-in-out">{item.icon}</div>
                   </Link>
                   <h3 className="text-default-900 font-normal group-hover:underline transition-all duration-300 ease-in-out">
-                    <Link href="/contractors" className="group" />
-                    <Link href="/contractors">{item.title}</Link>
+                    <Link href="/partners" className="group" />
+                    <Link href="/partners">{item.title}</Link>
                   </h3>
                 </div>
               </div>

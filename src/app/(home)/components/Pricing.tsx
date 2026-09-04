@@ -1,7 +1,7 @@
-import project04 from '@/assets/img/home/contractors/projects/04.jpg'
-import project05 from '@/assets/img/home/contractors/projects/05.jpg'
-import project06 from '@/assets/img/home/contractors/projects/06.jpg'
-import project07 from '@/assets/img/home/contractors/projects/07.jpg'
+import project04 from '@/assets/img/home/partners/projects/04.jpg'
+import project05 from '@/assets/img/home/partners/projects/05.jpg'
+import project06 from '@/assets/img/home/partners/projects/06.jpg'
+import project07 from '@/assets/img/home/partners/projects/07.jpg'
 import { Icon } from '@iconify/react'
 import { Star } from 'lucide-react'
 import Image, { StaticImageData } from 'next/image'
@@ -39,18 +39,18 @@ const Pricing = () => {
           <div className="grid md:grid-cols-2 grid-cols-1 gap-6">
             {pricingData.map((item, idx) => (
               <div className="group" key={idx}>
-                <Link href="/contractors" className="group"></Link>
+                <Link href="/partners" className="group"></Link>
                 <div className="md:flex block border border-border rounded-md">
-                  <Link href="/contractors" className="group">
+                  <Link href="/partners" className="group">
                     <div className="md:rounded-bl-md rounded-bl-0 md:rounded-tr-none rounded-tr-md rounded-tl-md overflow-hidden group relative lg:h-45.75 h-48">
                       <Image src={item.img} alt="" className="lg:h-45.75 h-48 w-full object-cover transition-transform duration-500 md:rounded-bl-md rounded-bl-0 md:rounded-tr-none rounded-tr-md rounded-tl-md group-hover:scale-105 z-0" />
                     </div>
                   </Link>
                   <div className="lg:p-6 p-4">
-                    <Link href="/contractors" className="group"></Link>
+                    <Link href="/partners" className="group"></Link>
                     <h3 className="text-default-900 font-semibold mb-2 group-hover:underline">
-                      <Link href="/contractors" className="group"></Link>
-                      <Link href="/contractors">{item.title}</Link>
+                      <Link href="/partners" className="group"></Link>
+                      <Link href="/partners">{item.title}</Link>
                     </h3>
                     <div className="flex items-center lg:gap-4 gap-1 mb-6">
                       <div className="flex items-center gap-1">

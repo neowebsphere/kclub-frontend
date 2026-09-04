@@ -1,7 +1,7 @@
 'use client'
-import project01 from '@/assets/img/home/contractors/projects/01.jpg'
-import project02 from '@/assets/img/home/contractors/projects/02.jpg'
-import project03 from '@/assets/img/home/contractors/projects/03.jpg'
+import project01 from '@/assets/img/home/partners/projects/01.jpg'
+import project02 from '@/assets/img/home/partners/projects/02.jpg'
+import project03 from '@/assets/img/home/partners/projects/03.jpg'
 import { Icon } from '@iconify/react'
 import { Star } from 'lucide-react'
 import Image, { StaticImageData } from 'next/image'
@@ -55,9 +55,9 @@ const HomeProject = () => {
             {projectData.map((item, idx) => (
               <SwiperSlide key={idx}>
                 <div className="group">
-                  <Link href="/contractors" className="group"></Link>
+                  <Link href="/partners" className="group"></Link>
                   <div className="border border-default-300 dark:border-white/20 group rounded-md">
-                    <Link href="/contractors" className="group">
+                    <Link href="/partners" className="group">
                       <div className="rounded-tr-md rounded-tl-md overflow-hidden group relative">
                         <Image src={item.image} alt="" className="w-full h-full object-cover transition-transform duration-500 rounded-tr-md rounded-tl-md group-hover:scale-105 z-0" />
                         <div className="absolute bottom-0 start-0 w-full h-1/3 bg-gradient-to-t from-black/60 to-transparent" />
@@ -70,16 +70,16 @@ const HomeProject = () => {
                       </div>
                     </Link>
                     <div className="p-4">
-                      <Link href="/contractors" className="group"></Link>
+                      <Link href="/partners" className="group"></Link>
                       <div className="flex items-center lg:gap-4 gap-1">
-                        <Link href="/contractors" className="group">
+                        <Link href="/partners" className="group">
                           <div className="flex items-center gap-1">
                             <Star className="fill-warning text-warning size-4" />
                             <span className="text-sm text-body-color">{item.rating}</span>
                             <span className="text-xs text-secondary">({item.reviews})</span>
                           </div>
                         </Link>
-                        <Link className="text-sm text-default-900" href="/contractors">
+                        <Link className="text-sm text-default-900" href="/partners">
                           From {item.price}
                         </Link>
                         <button

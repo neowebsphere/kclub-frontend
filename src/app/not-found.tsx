@@ -46,7 +46,7 @@ const NotFound = () => {
                   <div className="flex items-center">
                     <Icon icon="lucide:layout-grid" className="text-lg me-2" />
                     <Link
-                      href="/contractors"
+                      href="/partners"
                       className="relative text-default-900 font-semibold after:absolute after:bottom-0 after:start-0 after:w-full after:opacity-0 group-hover:after:opacity-100 after:h-0.25 after:bg-current hover:after:w-full after:transition-all after:duration-100"
                     >
                       Catalog
@@ -60,7 +60,7 @@ const NotFound = () => {
                   <div className="flex items-center">
                     <Icon icon="lucide:wrench" className="text-lg me-2" />
                     <Link
-                      href="/contractors"
+                      href="/partners"
                       className="relative text-default-900 font-semibold after:absolute after:bottom-0 after:start-0 after:w-full after:opacity-0 group-hover:after:opacity-100 after:h-0.25 after:bg-current hover:after:w-full after:transition-all after:duration-100"
                     >
                       Popular projects

@@ -102,9 +102,9 @@ const ratings: RatingType[] = [
 ]
 
 const resources: ResourceType[] = [
-  { id: 1, title: 'How can I leave a review for a contractor?', href: '/' },
-  { id: 2, title: 'What support does kclub Contractor offer?', href: '/' },
-  { id: 3, title: 'Community: Connect with other contractors', href: '/' },
+  { id: 1, title: 'How can I leave a review for a partner?', href: '/' },
+  { id: 2, title: 'What support does kclub Partner offer?', href: '/' },
+  { id: 3, title: 'Community: Connect with other partners', href: '/' },
   { id: 4, title: 'Press and announcements about kclub', href: '/' },
 ]
 

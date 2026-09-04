@@ -7,19 +7,19 @@ import React from 'react'
 import { Navigation, Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-import img01 from '@/assets/img/listings/contractors/01.jpg'
-import img02 from '@/assets/img/listings/contractors/02.jpg'
-import img03 from '@/assets/img/listings/contractors/03.jpg'
-import img04 from '@/assets/img/listings/contractors/04.jpg'
-import img05 from '@/assets/img/listings/contractors/05.jpg'
+import img01 from '@/assets/img/listings/partners/01.jpg'
+import img02 from '@/assets/img/listings/partners/02.jpg'
+import img03 from '@/assets/img/listings/partners/03.jpg'
+import img04 from '@/assets/img/listings/partners/04.jpg'
+import img05 from '@/assets/img/listings/partners/05.jpg'
 
-import ava01 from '@/assets/img/listings/contractors/ava01.jpg'
-import ava02 from '@/assets/img/listings/contractors/ava02.jpg'
-import ava03 from '@/assets/img/listings/contractors/ava03.jpg'
-import ava04 from '@/assets/img/listings/contractors/ava04.jpg'
-import ava05 from '@/assets/img/listings/contractors/ava05.jpg'
+import ava01 from '@/assets/img/listings/partners/ava01.jpg'
+import ava02 from '@/assets/img/listings/partners/ava02.jpg'
+import ava03 from '@/assets/img/listings/partners/ava03.jpg'
+import ava04 from '@/assets/img/listings/partners/ava04.jpg'
+import ava05 from '@/assets/img/listings/partners/ava05.jpg'
 
-type Contractor = {
+type Partner = {
   id: number
   name: string
   avatar: StaticImageData
@@ -34,7 +34,7 @@ type Contractor = {
   listingOfMonth?: boolean
 }
 
-const contractors: Contractor[] = [
+const partners: Partner[] = [
   {
     id: 1,
     name: 'Samantha Donovan',
@@ -98,7 +98,7 @@ const contractors: Contractor[] = [
 
 const filters: string[] = ['New York', '50 mi', 'Heating & furnace', 'Roofing', '$$', 'Eco-friendly']
 
-const ContractorListing: React.FC = () => {
+const PartnerListing: React.FC = () => {
   return (
     <div className="lg:col-span-9 col-span-1">
       <div className="flex justify-between gap-4 pb-2">
@@ -118,7 +118,7 @@ const ContractorListing: React.FC = () => {
       </div>
 
       <div className="flex items-center gap-2 sm:gap-3 pb-4 mb-2">
-        <div className="text-sm whitespace-nowrap">Showing {contractors.length} results</div>
+        <div className="text-sm whitespace-nowrap">Showing {partners.length} results</div>
 
         <div className="relative ms-auto w-32">
           <select className="w-full ps-3 pe-2 py-1.5 text-sm rounded border focus:outline-none bg-transparent">
@@ -130,8 +130,8 @@ const ContractorListing: React.FC = () => {
       </div>
 
       <div className="flex flex-col gap-6">
-        {contractors.map((contractor) => (
-          <div key={contractor.id} className="cursor-pointer h-auto group">
+        {partners.map((partner) => (
+          <div key={partner.id} className="cursor-pointer h-auto group">
             <div className="rounded-lg border border-default-200 h-full transition grid md:grid-cols-3 grid-cols-1">
               <div className="col-span-1 relative overflow-hidden !h-full">
                 <Swiper
@@ -151,24 +151,24 @@ const ContractorListing: React.FC = () => {
                     },
                   }}
                 >
-                  {contractor.images.map((image, index) => (
+                  {partner.images.map((image, index) => (
                     <SwiperSlide key={index}>
                       <div className="relative block lg:h-67 md:h-87.5 h-55">
-                        <Image src={image} alt={contractor.name} fill className="object-cover rounded-tl-md md:rounded-bl-md rounded-tr-md md:rounded-tr-none" />
+                        <Image src={image} alt={partner.name} fill className="object-cover rounded-tl-md md:rounded-bl-md rounded-tr-md md:rounded-tr-none" />
                         <span className="absolute inset-0 bg-gradient-to-b from-transparent to-black/10 z-10" />
                       </div>
                     </SwiperSlide>
                   ))}
 
                   <div className="absolute top-0 start-0 z-10 flex flex-col gap-2 pt-2 ps-2 mt-2 ms-2">
-                    {contractor.verified && (
+                    {partner.verified && (
                       <div className="bg-info text-white text-xs inline-flex items-center font-medium px-2 py-1 rounded">
                         Verified
                         <Icon icon="lucide:shield" className="ms-1" />
                       </div>
                     )}
 
-                    {contractor.top && <div className="bg-primary text-white text-xs inline-flex items-center font-medium px-2 py-1 rounded">Top</div>}
+                    {partner.top && <div className="bg-primary text-white text-xs inline-flex items-center font-medium px-2 py-1 rounded">Top</div>}
                   </div>
 
                   <div className="absolute top-1/2 start-0 -translate-y-1/2 z-10 hidden lg:block opacity-0 group-hover:opacity-100 ms-3">
@@ -194,28 +194,28 @@ const ContractorListing: React.FC = () => {
                       <div className="flex justify-between items-center">
                         <div className="flex items-center pe-5 lg:pe-0 pb-2 mb-1">
                           <div className="me-4 w-12 h-12 relative">
-                            <Image src={contractor.avatar} alt={contractor.name} fill className="bg-default-100 rounded-full object-cover" />
+                            <Image src={partner.avatar} alt={partner.name} fill className="bg-default-100 rounded-full object-cover" />
                           </div>
 
                           <h3 className="text-base font-semibold text-default-900">
                             <Link href="" className="group-hover:underline">
-                              {contractor.name}
+                              {partner.name}
                             </Link>
                           </h3>
                         </div>
                       </div>
 
                       <div className="flex flex-wrap items-center gap-2 text-sm mb-4">
-                        {contractor.services.map((service, index) => (
+                        {partner.services.map((service, index) => (
                           <React.Fragment key={service}>
                             <span className="font-medium text-default-900">{service}</span>
 
-                            {index !== contractor.services.length - 1 && <CircleSmall className="size-1 fill-default-800 text-default-800" />}
+                            {index !== partner.services.length - 1 && <CircleSmall className="size-1 fill-default-800 text-default-800" />}
                           </React.Fragment>
                         ))}
                       </div>
 
-                      <p className="text-sm">{contractor.description}</p>
+                      <p className="text-sm">{partner.description}</p>
                     </div>
                   </div>
 
@@ -223,25 +223,25 @@ const ContractorListing: React.FC = () => {
                     <ul className="flex flex-col gap-2 pb-2 lg:pb-6 mb-4">
                       <li className="flex items-center gap-1">
                         <Star className="fill-warning text-warning size-4" />
-                        <span className="text-sm text-default-700">{contractor.rating}</span>
-                        <span className="text-xs text-default-500">({contractor.reviews})</span>
+                        <span className="text-sm text-default-700">{partner.rating}</span>
+                        <span className="text-xs text-default-500">({partner.reviews})</span>
                       </li>
 
-                      {contractor.listingOfMonth && (
+                      {partner.listingOfMonth && (
                         <li className="flex items-center gap-1 text-sm">
                           <ThumbsUp className="size-3.5" />
                           Listing of the month
                         </li>
                       )}
 
-                      {contractor.eco && (
+                      {partner.eco && (
                         <li className="flex items-center gap-1 text-sm">
                           <Leaf className="size-3.5" />
                           Eco-friendly
                         </li>
                       )}
 
-                      {contractor.verified && (
+                      {partner.verified && (
                         <li className="flex items-center gap-1 text-sm">
                           <Shield className="size-3.5" />
                           Verified hires
@@ -272,4 +272,4 @@ const ContractorListing: React.FC = () => {
   )
 }
 
-export default ContractorListing
+export default PartnerListing

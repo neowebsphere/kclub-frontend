@@ -4,14 +4,14 @@ import type { StaticImageData } from 'next/image'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import con02 from '@/assets/img/listings/contractors/02.jpg'
-import con04 from '@/assets/img/listings/contractors/04.jpg'
-import con05 from '@/assets/img/listings/contractors/05.jpg'
+import con02 from '@/assets/img/listings/partners/02.jpg'
+import con04 from '@/assets/img/listings/partners/04.jpg'
+import con05 from '@/assets/img/listings/partners/05.jpg'
 
 import { Navigation, Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-type FavoriteContractor = {
+type FavoritePartner = {
   id: number
   images: StaticImageData[]
   category: string
@@ -24,7 +24,7 @@ type FavoriteContractor = {
   badges?: string[]
 }
 
-const favoriteContractors: FavoriteContractor[] = [
+const favoritePartners: FavoritePartner[] = [
   {
     id: 1,
     images: [con05, con05, con05],
@@ -76,8 +76,8 @@ const Favorite = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-          {favoriteContractors.map((contractor) => (
-            <div key={contractor.id} className="group">
+          {favoritePartners.map((partner) => (
+            <div key={partner.id} className="group">
               <div className="h-full rounded-lg border border-default-200 bg-body-bg transition">
                 <div className="relative overflow-hidden bg-default-100 dark:bg-white/5">
                   <Swiper
@@ -96,10 +96,10 @@ const Favorite = () => {
                     }}
                     modules={[Pagination, Navigation]}
                   >
-                    {contractor.images.map((image, index) => (
+                    {partner.images.map((image, index) => (
                       <SwiperSlide key={index}>
                         <div className="block relative pb-[calc(248/362*100%)]">
-                          <Image src={image} alt={contractor.name} className="absolute inset-0 size-full rounded-tl-md rounded-tr-md object-cover" />
+                          <Image src={image} alt={partner.name} className="absolute inset-0 size-full rounded-tl-md rounded-tr-md object-cover" />
 
                           <span className="absolute inset-0 z-10 bg-gradient-to-b from-transparent to-black/10" />
                         </div>
@@ -107,7 +107,7 @@ const Favorite = () => {
                     ))}
 
                     <div className="absolute start-0 top-0 z-10 mt-2 ms-2 flex flex-col gap-2 ps-2 pt-2">
-                      {contractor.badges?.map((badge) => (
+                      {partner.badges?.map((badge) => (
                         <div key={badge} className="inline-flex w-auto rounded bg-primary px-2 py-1 text-xs text-white">
                           {badge}
                         </div>
@@ -138,35 +138,35 @@ const Favorite = () => {
 
                 <div className="p-4">
                   <div className="mb-2 pb-1">
-                    <span className="rounded bg-default-100 px-2 py-1 text-xs font-medium text-default-800 dark:bg-white/5 dark:text-white">{contractor.category}</span>
+                    <span className="rounded bg-default-100 px-2 py-1 text-xs font-medium text-default-800 dark:bg-white/5 dark:text-white">{partner.category}</span>
                   </div>
 
-                  <div className="mb-2 text-xl font-semibold text-default-900 dark:text-white">{contractor.rate}</div>
+                  <div className="mb-2 text-xl font-semibold text-default-900 dark:text-white">{partner.rate}</div>
 
                   <h3 className="mb-2 text-sm font-normal text-default-700 dark:text-default-300">
                     <Link href="#!" className="text-body-color">
-                      {contractor.name}
+                      {partner.name}
                     </Link>
                   </h3>
 
-                  <div className="text-sm font-semibold text-default-900 dark:text-white">{contractor.rating}</div>
+                  <div className="text-sm font-semibold text-default-900 dark:text-white">{partner.rating}</div>
                 </div>
 
                 <div className="flex gap-2.5 px-3 pb-3 text-sm text-default-700 dark:text-default-300">
                   <div className="flex items-center gap-1">
-                    {contractor.projects}
+                    {partner.projects}
 
                     <Icon icon="lucide:hammer" className="size-5 text-default-500" />
                   </div>
 
                   <div className="flex items-center gap-1">
-                    {contractor.years}
+                    {partner.years}
 
                     <Icon icon="lucide:calendar-days" className="size-5 text-default-500" />
                   </div>
 
                   <div className="flex items-center gap-1">
-                    {contractor.reviews}
+                    {partner.reviews}
 
                     <Icon icon="lucide:message-square" className="size-5 text-default-500" />
                   </div>

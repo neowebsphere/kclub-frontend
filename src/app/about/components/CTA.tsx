@@ -1,4 +1,4 @@
-import appImg from '@/assets/img/home/contractors/app-cta.png'
+import appImg from '@/assets/img/home/partners/app-cta.png'
 import Icon from '@/components/wrappers/Icon'
 import Image from 'next/image'
 import Link from 'next/link'

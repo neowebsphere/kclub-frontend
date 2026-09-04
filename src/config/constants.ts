@@ -12,4 +12,4 @@ export const buyLink = ''
 
 export const basePath = ''
 
-export const DEFAULT_PAGE_TITLE = 'kclub - Find trusted contractors'
+export const DEFAULT_PAGE_TITLE = 'kclub - Find trusted partners'

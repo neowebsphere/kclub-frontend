@@ -18,10 +18,10 @@ type ListingSection = {
 const listingSections: ListingSection[][] = [
   [
     {
-      title: 'Contractors',
+      title: 'Partners',
       links: [
-        { label: 'Browse Catalog', href: '/contractors' },
-        { label: 'Contractor Profile', href: '/contractors/entry' },
+        { label: 'Browse Catalog', href: '/partners' },
+        { label: 'Partner Profile', href: '/partners/entry' },
       ],
     },
   ],
@@ -29,11 +29,11 @@ const listingSections: ListingSection[][] = [
     {
       title: 'List Your Business',
       links: [
-        { label: 'Profile Details', href: '/add-listing/profile' },
-        { label: 'Choose Services', href: '/add-listing/services' },
-        { label: 'Business Location', href: '/add-listing/location' },
-        { label: 'Price and Hours', href: '/add-listing/price-hours' },
-        { label: 'First Project', href: '/add-listing/project' },
+        { label: 'Profile Details', href: '/become-partner/profile' },
+        { label: 'Choose Services', href: '/become-partner/services' },
+        { label: 'Business Location', href: '/become-partner/location' },
+        { label: 'Price and Hours', href: '/become-partner/price-hours' },
+        { label: 'First Project', href: '/become-partner/project' },
       ],
     },
   ],
@@ -42,7 +42,7 @@ const listingSections: ListingSection[][] = [
 const ListingsMenuDropdown = () => {
   const pathname = usePathname()
 
-  const isListingsActive = pathname.startsWith('/contractors') || pathname.startsWith('/add-listing')
+  const isListingsActive = pathname.startsWith('/partners') || pathname.startsWith('/become-partner')
 
   return (
     <div className="hs-dropdown [--trigger:hover] relative inline-flex transition-all duration-300 py-2">

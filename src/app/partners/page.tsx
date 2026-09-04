@@ -2,7 +2,7 @@ import Topbar from '@/components/topbar'
 import { Plus } from 'lucide-react'
 import Footer from './components/Footer'
 import Breadcrumb from './components/Breadcrumb'
-import ContractorListing from './components/ContractorListing'
+import PartnerListing from './components/PartnerListing'
 import SideBar from './components/SideBar'
 
 const Page = () => {
@@ -25,7 +25,7 @@ const Page = () => {
           <Breadcrumb />
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-6 lg:pb-12">
             <SideBar />
-            <ContractorListing />
+            <PartnerListing />
           </div>
         </div>
       </section>

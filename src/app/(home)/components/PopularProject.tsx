@@ -1,9 +1,9 @@
-import banner from '@/assets/img/home/contractors/banner.png'
-import th01 from '@/assets/img/home/contractors/projects/th01.jpg'
-import th02 from '@/assets/img/home/contractors/projects/th02.jpg'
-import th03 from '@/assets/img/home/contractors/projects/th03.jpg'
-import th04 from '@/assets/img/home/contractors/projects/th04.jpg'
-import th05 from '@/assets/img/home/contractors/projects/th05.jpg'
+import banner from '@/assets/img/home/partners/banner.png'
+import th01 from '@/assets/img/home/partners/projects/th01.jpg'
+import th02 from '@/assets/img/home/partners/projects/th02.jpg'
+import th03 from '@/assets/img/home/partners/projects/th03.jpg'
+import th04 from '@/assets/img/home/partners/projects/th04.jpg'
+import th05 from '@/assets/img/home/partners/projects/th05.jpg'
 import { Icon } from '@iconify/react'
 import { Star } from 'lucide-react'
 import Image, { StaticImageData } from 'next/image'
@@ -66,18 +66,18 @@ const PopularProject = () => {
               <div className="grid md:grid-cols-2 grid-cols-1 gap-7">
                 {projectsData.map((item, idx) => (
                   <div className="group" key={idx}>
-                    <Link href="/contractors" className="group"></Link>
+                    <Link href="/partners" className="group"></Link>
                     <div className="flex gap-4">
-                      <Link href="/contractors" className="group">
+                      <Link href="/partners" className="group">
                         <div className="rounded-md w-28 h-auto overflow-hidden">
                           <Image src={item.image} alt="Category image" className="w-28 h-auto object-cover transition-transform duration-500 rounded-md group-hover:scale-110 z-0" />
                         </div>
                       </Link>
                       <div className="pt-1">
-                        <Link href="/contractors" className="group"></Link>
+                        <Link href="/partners" className="group"></Link>
                         <h3 className="mb-1 font-semibold text-default-900">
-                          <Link href="/contractors" className="group"></Link>
-                          <Link className="hover:underline transition-all duration-300 ease-in-out" href="/contractors">
+                          <Link href="/partners" className="group"></Link>
+                          <Link className="hover:underline transition-all duration-300 ease-in-out" href="/partners">
                             {item.title}
                           </Link>
                         </h3>

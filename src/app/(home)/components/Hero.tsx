@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react"
-import hero from '@/assets/img/home/contractors/hero.png'
+import hero from '@/assets/img/home/partners/hero.png'
 import Image from "next/image"
 
 const Hero = () => {

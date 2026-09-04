@@ -1,4 +1,4 @@
-import become from '@/assets/img/home/contractors/become-pro-cta.jpg'
+import become from '@/assets/img/home/partners/become-pro-cta.jpg'
 import { Icon } from "@iconify/react"
 import Image from "next/image"
 import Link from 'next/link'
@@ -11,7 +11,7 @@ const ProCTA = () => {
           <div className="lg:w-md md:w-50 w-full lg:py-12">
             <h2 className="lg:text-3.5xl md:text-2.5xl text-2xl md:text-start text-center text-white font-semibold mb-8">Grow your business with us. Become a Pro today</h2>
             <div className="flex gap-4 flex-wrap items-center">
-              <Link href="/add-listing/location" className="py-3.5 px-6 rounded-md text-white bg-primary transition-all duration-300 hover:bg-primary-hover lg:w-auto w-full flex justify-center items-center gap-2">
+              <Link href="/become-partner/location" className="py-3.5 px-6 rounded-md text-white bg-primary transition-all duration-300 hover:bg-primary-hover lg:w-auto w-full flex justify-center items-center gap-2">
                 <Icon icon="lucide:plus" className="text-lg" />
                 Add business
               </Link>

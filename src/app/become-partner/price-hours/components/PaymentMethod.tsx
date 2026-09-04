@@ -156,7 +156,7 @@ const PaymentMethod = () => {
                 </div>
               </div>
               <div className="pt-12">
-                <Link href="/add-listing/project" className="py-3.5 px-6 inline-flex justify-center items-center rounded-md text-body-bg bg-default-800 transition-all duration-300 hover:bg-default-900 font-semibold">
+                <Link href="/become-partner/project" className="py-3.5 px-6 inline-flex justify-center items-center rounded-md text-body-bg bg-default-800 transition-all duration-300 hover:bg-default-900 font-semibold">
                   Go to First project
                   <ChevronRight className="size-4.5 ms-1" />
                 </Link>

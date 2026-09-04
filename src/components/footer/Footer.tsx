@@ -52,7 +52,7 @@ const Footer = () => {
                 <ul className="mt-2 gap-2">
                   <li className="pt-2">
                     <Link href="" className="text-sm text-body-color hover:underline hover:text-white">
-                      Browse contractors
+                      Browse partners
                     </Link>
                   </li>
                   <li className="pt-2">
@@ -88,7 +88,7 @@ const Footer = () => {
                     <ul className="mt-2 gap-2">
                       <li className="pt-2">
                         <Link href="" className="text-sm text-body-color hover:underline hover:text-white">
-                          Browse contractors
+                          Browse partners
                         </Link>
                       </li>
                       <li className="pt-2">

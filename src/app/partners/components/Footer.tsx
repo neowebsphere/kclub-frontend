@@ -129,7 +129,7 @@ const Footer = () => {
 
                 <span className="text-2xl font-semibold text-white">kclub</span>
               </Link>
-              <p className="pt-1 mb-4 text-sm text-white/70">Connecting you with reliable local contractors for all your service needs.</p>
+              <p className="pt-1 mb-4 text-sm text-white/70">Connecting you with reliable local partners for all your service needs.</p>
               <div className="flex gap-4">
                 {socialLinks.map((social) => (
                   <Link key={social.id} href={social.href} aria-label={social.label} className="size-8 flex justify-center items-center bg-default-300 hover:bg-default-200 rounded-full transition-all duration-300">

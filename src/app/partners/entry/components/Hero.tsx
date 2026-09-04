@@ -1,9 +1,9 @@
-import single01 from '@/assets/img/listings/contractors/single/01.jpg'
-import single02 from '@/assets/img/listings/contractors/single/02.jpg'
-import single03 from '@/assets/img/listings/contractors/single/03.jpg'
-import single04 from '@/assets/img/listings/contractors/single/04.jpg'
-import single05 from '@/assets/img/listings/contractors/single/05.jpg'
-import avatar from '@/assets/img/listings/contractors/single/avatar.jpg'
+import single01 from '@/assets/img/listings/partners/single/01.jpg'
+import single02 from '@/assets/img/listings/partners/single/02.jpg'
+import single03 from '@/assets/img/listings/partners/single/03.jpg'
+import single04 from '@/assets/img/listings/partners/single/04.jpg'
+import single05 from '@/assets/img/listings/partners/single/05.jpg'
+import avatar from '@/assets/img/listings/partners/single/avatar.jpg'
 import GlightBox from '@/components/GlightBox'
 import { Icon } from '@iconify/react'
 import { CreditCard, Leaf, Shield, Star, ThumbsUp } from 'lucide-react'
@@ -74,7 +74,7 @@ const Hero = () => {
       <div className="grid md:grid-cols-12 grid-cols-2 grid-rows-2 lg:gap-6 gap-4 mb-12">
         {galleryImages.map((item, idx) => (
           <div key={idx} className={`group relative overflow-hidden rounded-xl ${item.colSpan} ${item.rowSpan}`}>
-            <Image src={item.image} alt={`Contractor gallery image`} className="w-full h-full object-cover rounded-xl transition-transform duration-300 group-hover:scale-105" />
+            <Image src={item.image} alt={`Partner gallery image`} className="w-full h-full object-cover rounded-xl transition-transform duration-300 group-hover:scale-105" />
 
             <div className="absolute inset-0 flex items-center justify-center bg-black/30 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-xl">
               <GlightBox href={item.image.src} className="image-popup after:absolute after:inset-0 after:z-1 rounded-xl">

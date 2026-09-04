@@ -13,8 +13,8 @@ type FeatureItem = {
 const featureData: FeatureItem[] = [
   {
     id: 1,
-    title: 'Verified contractors',
-    description: 'Our platform boasts a meticulously vetted network of contractors across various specialties. Each contractor undergoes a rigorous verification process, including background checks and license verification.',
+    title: 'Verified partners',
+    description: 'Our platform boasts a meticulously vetted network of partners across various specialties. Each partner undergoes a rigorous verification process, including background checks and license verification.',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width={64} height={64}>
         <path
@@ -51,7 +51,7 @@ const featureData: FeatureItem[] = [
   {
     id: 2,
     title: 'Advanced search',
-    description: 'kclub Contractor offers sophisticated search tools that allow you to filter contractors based on criteria such as location, project type, budget, and specific skills.',
+    description: 'kclub Partner offers sophisticated search tools that allow you to filter partners based on criteria such as location, project type, budget, and specific skills.',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width={64} height={64}>
         <path

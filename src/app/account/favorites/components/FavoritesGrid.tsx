@@ -1,9 +1,9 @@
 'use client'
-import con01 from '@/assets/img/listings/contractors/01.jpg'
-import con02 from '@/assets/img/listings/contractors/02.jpg'
-import con03 from '@/assets/img/listings/contractors/03.jpg'
-import con04 from '@/assets/img/listings/contractors/04.jpg'
-import con05 from '@/assets/img/listings/contractors/05.jpg'
+import con01 from '@/assets/img/listings/partners/01.jpg'
+import con02 from '@/assets/img/listings/partners/02.jpg'
+import con03 from '@/assets/img/listings/partners/03.jpg'
+import con04 from '@/assets/img/listings/partners/04.jpg'
+import con05 from '@/assets/img/listings/partners/05.jpg'
 import { Icon } from '@iconify/react'
 import { Heart } from 'lucide-react'
 import Image, { StaticImageData } from 'next/image'
@@ -11,7 +11,7 @@ import Link from 'next/link'
 import { Navigation, Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-type Contractor = {
+type Partner = {
   id: number
   category: string
   name: string
@@ -26,7 +26,7 @@ type Contractor = {
   images: StaticImageData[]
 }
 
-const favoriteContractors: Contractor[] = [
+const favoritePartners: Partner[] = [
   {
     id: 1,
     category: 'Renovation',
@@ -114,8 +114,8 @@ const FavoritesGrid = () => {
         </div>
 
         <div className="grid md:grid-cols-3 grid-cols-1 gap-6">
-          {favoriteContractors.map((contractor) => (
-            <div key={contractor.id} className="group">
+          {favoritePartners.map((partner) => (
+            <div key={partner.id} className="group">
               <div className="bg-body-bg rounded-lg border border-default-200 h-full transition">
                 <div className="relative bg-default-100 dark:bg-white/3 overflow-hidden">
                   <Swiper
@@ -134,10 +134,10 @@ const FavoritesGrid = () => {
                     }}
                     modules={[Pagination, Navigation]}
                   >
-                    {contractor.images.map((image, index) => (
+                    {partner.images.map((image, index) => (
                       <SwiperSlide key={index}>
                         <div className="block relative pb-[calc(248/362*100%)]">
-                          <Image src={image} alt={contractor.name} fill className="absolute inset-0 size-full object-cover rounded-tr-md rounded-tl-md" />
+                          <Image src={image} alt={partner.name} fill className="absolute inset-0 size-full object-cover rounded-tr-md rounded-tl-md" />
 
                           <span className="absolute inset-0 bg-gradient-to-b from-transparent to-black/10 z-10" />
                         </div>
@@ -146,13 +146,13 @@ const FavoritesGrid = () => {
 
                     <div className="absolute top-0 start-0 z-10 flex flex-col gap-2 pt-2 ps-2 mt-2 ms-2">
                       <div>
-                        {contractor.featured && <div className="bg-info text-white text-xs inline-flex item-center font-medium px-2 py-0.5 rounded items-center">Features</div>}
-                        {contractor.isNew && (
+                        {partner.featured && <div className="bg-info text-white text-xs inline-flex item-center font-medium px-2 py-0.5 rounded items-center">Features</div>}
+                        {partner.isNew && (
                           <div>
                             <p className="bg-primary inline-flex w-auto text-white text-xs px-2 py-0.5 rounded">New</p>
                           </div>
                         )}
-                        {contractor.verified && (
+                        {partner.verified && (
                           <div className="bg-info text-white text-xs inline-flex item-center font-medium px-2 py-0.5 rounded items-center">
                             Verified
                             <Icon icon="lucide:shield" className="ms-1" />
@@ -184,33 +184,33 @@ const FavoritesGrid = () => {
 
                 <div className="p-4">
                   <div className="pb-1 mb-2">
-                    <span className="bg-default-100 dark:bg-white/3 font-medium text-default-800 text-xs px-2 py-1 rounded">{contractor.category}</span>
+                    <span className="bg-default-100 dark:bg-white/3 font-medium text-default-800 text-xs px-2 py-1 rounded">{partner.category}</span>
                   </div>
 
-                  <div className="text-xl text-default-900 font-semibold mb-2">{contractor.rate}</div>
+                  <div className="text-xl text-default-900 font-semibold mb-2">{partner.rate}</div>
 
                   <h3 className="text-sm font-normal text-default-700 mb-2">
                     <Link href="" className="text-body-color">
-                      {contractor.name}
+                      {partner.name}
                     </Link>
                   </h3>
 
-                  <div className="text-sm text-default-900 font-semibold">{contractor.rating}</div>
+                  <div className="text-sm text-default-900 font-semibold">{partner.rating}</div>
                 </div>
 
                 <div className="flex gap-2.5 px-3 pb-3 text-sm text-default-700">
                   <div className="flex items-center gap-1">
-                    {contractor.projects}
+                    {partner.projects}
                     <Icon icon="lucide:hammer" className="text-default-500 size-5" />
                   </div>
 
                   <div className="flex items-center gap-1">
-                    {contractor.years}
+                    {partner.years}
                     <Icon icon="lucide:calendar-days" className="text-default-500 size-5" />
                   </div>
 
                   <div className="flex items-center gap-1">
-                    {contractor.reviews}
+                    {partner.reviews}
                     <Icon icon="lucide:message-square" className="text-default-500 size-5" />
                   </div>
                 </div>
